@@ -16,6 +16,7 @@ body{
     height: 640px;
     display: flex;
     flex-wrap: wrap;
+    perspective: 1000px;
 }
 
 .memory-card{
@@ -24,11 +25,19 @@ body{
     height: calc(33.333% - 10px);
     margin: 5px;
     transform: scale(1);
+    transform-style: preserve-3d;
+    transition: .5s;
 }
 
+/*Click on card animation*/
 .memory-card:active{
     transform: scale(.97);
     transition: .2s;
+}
+
+/* Flip card animation */
+.memory-card.flip{
+    transform: rotateY(180deg);
 }
 
 .front-face, .back-face{
