@@ -7,9 +7,13 @@
 body{
     height: 100vh;
     background-color: rgb(31, 31, 90);
-    display: flex;
 }
 
+.memory-container{
+    height: 100vh;
+    margin: auto;
+    display: flex;
+}
 .memory-game{
     margin: auto;
     width: 640px;
