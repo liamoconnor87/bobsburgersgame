@@ -10,10 +10,28 @@ body{
 }
 
 .memory-container{
-    height: 100vh;
+    height: 60%;
     margin: auto;
     display: flex;
 }
+
+.watch-container{
+	height: 200px;
+	width: 100%;
+}
+
+#display{
+    color: white;
+	width: 100%;
+	font-size:72px;
+	text-align: center;
+	margin: 0px auto;
+}
+
+.buttons{
+	text-align: center;
+}
+
 .memory-game{
     margin: auto;
     width: 640px;
