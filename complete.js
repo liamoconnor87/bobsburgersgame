@@ -1,4 +1,4 @@
-let matchedCard = document.getElementsByClassName("flip")
+let matchedCard = document.getElementsByClassName("memory-card flip")
 
 function complete() {
     if (matchedCard.length == 12) {

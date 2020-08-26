@@ -72,4 +72,5 @@ function reset() {
 // Timer starts on first card click.
 $(".memory-card").click(function(){
     startTimer();
+    complete();
 })
