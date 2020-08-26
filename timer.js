@@ -55,16 +55,12 @@ let interval = null;
 // Defined value to hold stopwatch status.
 let status = "stopped";
 
-function startStop() {
+function startTimer() {
 	if (status === "stopped") {
         // Start the stopwatch by calling the setInterval() function.
         // Defines when stopWatch function will be called - 1000 milliseconds 
 		interval = window.setInterval(stopWatch, 1000);
 		status = "started";
-	} else {
-		// Stops the stopwatch by stopping the setInterval() function.
-		window.clearInterval(interval);
-		status = "stopped";
 	}
 }
 
@@ -75,5 +71,5 @@ function reset() {
 
 // Timer starts on first card click.
 $(".memory-card").click(function(){
-    startStop();
+    startTimer();
 })

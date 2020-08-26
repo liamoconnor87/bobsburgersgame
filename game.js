@@ -40,7 +40,7 @@ function flipCard() {
             secondCard.classList.remove('flip');
 
             resetBoard()
-            }, 1500);
+            }, 1000);
         }
     }
 }
@@ -48,7 +48,6 @@ function flipCard() {
 function resetBoard() {
     hasFlippedCard = false;
     lockBoard = false;
-
     firstCard = null;
     secondCard = null;
 }
