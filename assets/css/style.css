@@ -9,12 +9,6 @@ body{
     background-color: rgb(31, 31, 90);
 }
 
-.memory-container{
-    height: 60%;
-    margin: auto;
-    display: flex;
-}
-
 .watch-container{
 	height: 200px;
 	width: 100%;
@@ -30,6 +24,20 @@ body{
 
 .buttons{
 	text-align: center;
+}
+
+.counter{
+    color: white;
+	width: 100%;
+	font-size:42px;
+	text-align: center;
+	margin: 0px auto;
+}
+
+.memory-container{
+    height: 60%;
+    margin: auto;
+    display: flex;
 }
 
 .memory-game{
