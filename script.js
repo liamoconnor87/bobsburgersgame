@@ -8,6 +8,9 @@ function flipCard() {
 
     if (lockBoard) return;
 
+    //prevents click of same card twice
+    if (this === firstCard) return;
+
     //flip card animation
     this.classList.add('flip');
 
@@ -17,7 +20,7 @@ function flipCard() {
         firstCard = this;
     } else {
         //second click
-        hasFlippedCard = false;
+        //hasFlippedCard = false;
         secondCard = this;
 
         //do cards match...
@@ -25,6 +28,8 @@ function flipCard() {
             //it matches!
             firstCard.removeEventListener('click', flipCard);
             secondCard.removeEventListener('click', flipCard);
+
+            resetBoard()
         } else {
 
             lockBoard = true;
@@ -34,10 +39,18 @@ function flipCard() {
             firstCard.classList.remove('flip');
             secondCard.classList.remove('flip');
 
-            lockBoard = false;
+            resetBoard()
             }, 1500);
         }
     }
+}
+
+function resetBoard() {
+    hasFlippedCard = false;
+    lockBoard = false;
+
+    firstCard = null;
+    secondCard = null;
 }
 
 cards.forEach(card => card.addEventListener('click', flipCard));
