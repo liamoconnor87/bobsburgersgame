@@ -1,13 +1,16 @@
 const cards = document.querySelectorAll('.memory-card');
 
 let hasFlippedCard = false;
+let lockBoard = false;
 let firstCard, secondCard;
 
 function flipCard() {
+
+    if (lockBoard) return;
+
     //flip card animation
     this.classList.add('flip');
 
-    //if hasflippedcard isnt false
     if (!hasFlippedCard) {
         //first click
         hasFlippedCard = true;
@@ -23,10 +26,15 @@ function flipCard() {
             firstCard.removeEventListener('click', flipCard);
             secondCard.removeEventListener('click', flipCard);
         } else {
+
+            lockBoard = true;
+
             //no match!
             setTimeout(() => {
             firstCard.classList.remove('flip');
             secondCard.classList.remove('flip');
+
+            lockBoard = false;
             }, 1500);
         }
     }
