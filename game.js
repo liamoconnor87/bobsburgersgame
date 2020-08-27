@@ -22,6 +22,9 @@ function flipCard() {
         //second click
         //hasFlippedCard = false;
         secondCard = this;
+        
+        //Counts when two flips have been made.
+        count()
 
         //do cards match...
         if (firstCard.dataset.name === secondCard.dataset.name) {
