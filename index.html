@@ -1,91 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-        <title>Memory Card Game</title>
-    </head>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	<title>Bob's Burgers Memory Game</title>
+</head>
+<body>
+	<!-- Title and Counter -->
+	<section class="title">
 
-    <body>
-        <div class="watch-container">
+		<div class="logo"></div>
+
+		<div class="watch-container">
             <div id="display">00:00:00</div>
-            <div class="buttons">
-                 <button id="reset" onclick="reset()">Reset</button>
-            </div>
             <div class="counter">Counter: <span class="count">0</span></div>
         </div>
 
-        <section class="memory-container">
+        <div class="buttons">
+         	<button id="reset" onclick="reset()">Reset</button>
+        </div>
 
-            <div class="memory-game">
+	</section>
 
-                <div class="memory-card" data-name="aurelia">
-                    <img class="front-face" src="assets/img/aurelia.svg" alt="Aurelia">
-                    <img class="back-face" src="assets/img/js-badge.svg" alt="JS Badge">
-                </div>
+	<!-- Memory Game -->
+	<section class="game-container">
 
-                <div class="memory-card" data-name="aurelia">
-                    <img class="front-face" src="assets/img/aurelia.svg" alt="Aurelia">
-                    <img class="back-face" src="assets/img/js-badge.svg" alt="JS Badge">
-                </div>
+		<div class="row-container">
 
-                <div class="memory-card" data-name="angular">
-                    <img class="front-face" src="assets/img/angular.svg" alt="Angular">
-                    <img class="back-face" src="assets/img/js-badge.svg" alt="JS Badge">
-                </div>
+			<div class="memory-card" data-name="">
+				<div class="front-face"></div>
+				<div class="back-face"></div>
+			</div>
 
-                <div class="memory-card" data-name="angular">
-                    <img class="front-face" src="assets/img/angular.svg" alt="Angular">
-                    <img class="back-face" src="assets/img/js-badge.svg" alt="JS Badge">
-                </div>
+			<div class="memory-card" data-name="">
+				<div class="front-face"></div>
+				<div class="back-face"></div>
+			</div>
 
-                <div class="memory-card" data-name="backbone">
-                    <img class="front-face" src="assets/img/backbone.svg" alt="Backbone">
-                    <img class="back-face" src="assets/img/js-badge.svg" alt="JS Badge">
-                </div>
+			<div class="memory-card" data-name="">
+				<div class="front-face"></div>
+				<div class="back-face"></div>
+			</div>
 
-                <div class="memory-card" data-name="backbone">
-                    <img class="front-face" src="assets/img/backbone.svg" alt="Backbone">
-                    <img class="back-face" src="assets/img/js-badge.svg" alt="JS Badge">
-                </div>
+			<div class="memory-card" data-name="">
+				<div class="front-face"></div>
+				<div class="back-face"></div>
+			</div>
 
-                <div class="memory-card" data-name="ember">
-                    <img class="front-face" src="assets/img/ember.svg" alt="Ember">
-                    <img class="back-face" src="assets/img/js-badge.svg" alt="JS Badge">
-                </div>
+		</div>
 
-                <div class="memory-card" data-name="ember">
-                    <img class="front-face" src="assets/img/ember.svg" alt="Ember">
-                    <img class="back-face" src="assets/img/js-badge.svg" alt="JS Badge">
-                </div>
+		<div class="row-container">
 
-                <div class="memory-card" data-name="react">
-                    <img class="front-face" src="assets/img/react.svg" alt="React">
-                    <img class="back-face" src="assets/img/js-badge.svg" alt="JS Badge">
-                </div>
+			<div class="memory-card" data-name="">
+				<div class="front-face"></div>
+				<div class="back-face"></div>
+			</div>
 
-                <div class="memory-card" data-name="react">
-                    <img class="front-face" src="assets/img/react.svg" alt="React">
-                    <img class="back-face" src="assets/img/js-badge.svg" alt="JS Badge">
-                </div>
+			<div class="memory-card" data-name="">
+				<div class="front-face"></div>
+				<div class="back-face"></div>
+			</div>
 
-                <div class="memory-card" data-name="vue">
-                    <img class="front-face" src="assets/img/vue.svg" alt="Vue">
-                    <img class="back-face" src="assets/img/js-badge.svg" alt="JS Badge">
-                </div>
+			<div class="memory-card" data-name="">
+				<div class="front-face"></div>
+				<div class="back-face"></div>
+			</div>
 
-                <div class="memory-card" data-name="vue">
-                    <img class="front-face" src="assets/img/vue.svg" alt="Vue">
-                    <img class="back-face" src="assets/img/js-badge.svg" alt="JS Badge">
-                </div>
-            </div>
-        </section>
-        <script src="game.js"></script>
-        <script src="timer.js"></script>
-        <script src="complete.js"></script>
-        <script src="counter.js"></script>
-    </body>
+			<div class="memory-card" data-name="">
+				<div class="front-face"></div>
+				<div class="back-face"></div>
+			</div>
+
+		</div>
+
+		<div class="row-container">
+
+			<div class="memory-card" data-name="">
+				<div class="front-face"></div>
+				<div class="back-face"></div>
+			</div>
+
+			<div class="memory-card" data-name="">
+				<div class="front-face"></div>
+				<div class="back-face"></div>
+			</div>
+
+			<div class="memory-card" data-name="">
+				<div class="front-face"></div>
+				<div class="back-face"></div>
+			</div>
+
+			<div class="memory-card" data-name="">
+				<div class="front-face"></div>
+				<div class="back-face"></div>
+			</div>
+
+		</div>
+		<div class="row-container">
+
+			<div class="memory-card" data-name="">
+				<div class="front-face"></div>
+				<div class="back-face"></div>
+			</div>
+
+			<div class="memory-card" data-name="">
+				<div class="front-face"></div>
+				<div class="back-face"></div>
+			</div>
+
+			<div class="memory-card" data-name="">
+				<div class="front-face"></div>
+				<div class="back-face"></div>
+			</div>
+
+			<div class="memory-card" data-name="">
+				<div class="front-face"></div>
+				<div class="back-face"></div>
+			</div>
+
+		</div>
+
+	</section>
+
+	<script src="game.js"></script>
+    <script src="timer.js"></script>
+    <script src="complete.js"></script>
+    <script src="counter.js"></script>
+</body>
 </html>
