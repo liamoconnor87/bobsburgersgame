@@ -55,6 +55,13 @@ function resetBoard() {
     secondCard = null;
 }
 
+// Flip counter.
+i = 0;
+
+function count() {
+   $(".count").text(++i);
+}
+
 //card shuffle
 (function shuffle() {
     cards.forEach(card => {
