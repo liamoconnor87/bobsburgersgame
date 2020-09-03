@@ -6,10 +6,6 @@
 
 body {
 	height: 100vh;
-    background-image: url("https://www.dropbox.com/s/vdyictqgq0myw7a/bobs_bg2.jpg?raw=1");
-    background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
 	font-family: 'Permanent Marker', cursive;
 	font-size: 20px;
 }
@@ -107,12 +103,87 @@ body {
 
 .front-face{
     transform: rotateY(180deg);
+    border: solid 3px red;
 }
 
 /* Image URL's */
+/* Background images */
+.restaurant-bg {
+    background-image: url("https://www.dropbox.com/s/vdyictqgq0myw7a/bobs_bg2.jpg?raw=1");
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
 /* Back face of card */
 .back-face {
 	background-image: url("https://www.dropbox.com/s/g4a39sk9s38kafx/burger.jpg?raw=1");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border: solid 3px red;
+}
+
+/* Front face of cards*/
+.bob {
+	background-image: url("https://www.dropbox.com/s/nmbz9mezkmy0mqo/bob_belcher.jpg?raw=1");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border: solid 3px red;
+}
+
+.linda {
+	background-image: url("https://www.dropbox.com/s/2ry298w6kobx31u/linda_belcher.jpg?raw=1");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border: solid 3px red;
+}
+
+.tina {
+	background-image: url("https://www.dropbox.com/s/y615hry8ee1gdk4/tina_belcher.jpg?raw=1");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border: solid 3px red;
+}
+
+.gene {
+	background-image: url("https://www.dropbox.com/s/6ybfh90wa7qbz3h/gene_belcher.jpg?raw=1");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border: solid 3px red;
+}
+
+.louise {
+	background-image: url("https://www.dropbox.com/s/i2mc360tnee97uz/louise_belcher.jpg?raw=1");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border: solid 3px red;
+}
+
+.teddy {
+	background-image: url("https://www.dropbox.com/s/62ka5yh92se986s/teddy.jpg?raw=1");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border: solid 3px red;
+}
+
+.marshmellow {
+	background-image: url("https://www.dropbox.com/s/gzdhd5u4dlczbdv/marshmellow.png?raw=1");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border: solid 3px red;
+}
+
+.dryap {
+	background-image: url("https://www.dropbox.com/s/iayw0o3b0eba0ub/dr_yap.jpg?raw=1");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
