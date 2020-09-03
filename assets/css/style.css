@@ -1,63 +1,85 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-body{
-    height: 100vh;
-    background-image: url("https://www.dropbox.com/s/4db84gzovfc2fbk/bobs_bg.jpg?raw=1");
+body {
+	height: 100vh;
+    background-image: url("https://www.dropbox.com/s/vdyictqgq0myw7a/bobs_bg2.jpg?raw=1");
     background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 20px;
 }
 
-.watch-container{
+/* Game Title and Counter */
+.title {
+	width: 100%;
 	height: 200px;
-	width: 100%;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 30px;
 }
 
-#display{
-    color: white;
-	width: 100%;
-	font-size:72px;
+.logo {
+	width: inherit;
+	height: inherit;
+	margin: auto;
+	background-image: url("https://www.dropbox.com/s/2ogvxf0alhmx0i1/bobs_logo.jpg?raw=1");
+	background-repeat: no-repeat;
+	background-size: 90% auto;
+	background-position: center;
+}
+
+.watch-container {
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	height: auto;
+	width: 96%;
+	color: black;
 	text-align: center;
-	margin: 0px auto;
+	background-color: red;
+	border: 5px solid black;
 }
 
-.buttons{
+#display {
+	width: 50%;
+}
+
+.buttons {
 	text-align: center;
 }
 
-.counter{
-    color: white;
-	width: 100%;
-	font-size:42px;
-	text-align: center;
-	margin: 0px auto;
+.counter {
+	width: 50%;
 }
 
-.memory-container{
-    height: 60%;
+/* Memory Game */
+.game-container {
+    width: 95%;
     margin: auto;
-    display: flex;
+    background-color: rgba(255, 240, 0, .7);
+    padding-top: 10px;
+    border: 5px solid black;
 }
 
-.memory-game{
-    margin: auto;
-    width: 640px;
-    height: 640px;
-    display: flex;
-    flex-wrap: wrap;
-    perspective: 1000px;
+.row-container {
+	margin-bottom: 15px;
+	display: flex;
+	flex-direction: row;
+	perspective: 1000px;
 }
 
-.memory-card{
-    position: relative;
-    width: calc(25% - 10px);
-    height: calc(33.333% - 10px);
-    margin: 5px;
-    transform: scale(1);
+.memory-card {
+	height: 75px;
+	width: 75px;
+	border-radius: 50%;
+	position: relative;
+	margin: auto;
+	transform: scale(1);
     transform-style: preserve-3d;
     transition: .5s;
 }
@@ -73,16 +95,26 @@ body{
     transform: rotateY(180deg);
 }
 
-.front-face, .back-face{
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
-    padding: 20px;
-    position: absolute;
-    background-color: rgb(84, 84, 201);
-    backface-visibility: hidden;
+.front-face, .back-face {
+	margin: auto;
+	height: inherit;
+	width: inherit;
+	border-radius: 50%;
+	background-color: black;
+	position: absolute;
+	backface-visibility: hidden;
 }
 
 .front-face{
     transform: rotateY(180deg);
+}
+
+/* Image URL's */
+/* Back face of card */
+.back-face {
+	background-image: url("https://www.dropbox.com/s/g4a39sk9s38kafx/burger.jpg?raw=1");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border: solid 3px red;
 }
