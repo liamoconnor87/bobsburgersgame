@@ -69,6 +69,15 @@ function reset() {
     window.location.reload();
 }
 
+// Stops timer when all cards have been matched.
+let matchedCard = document.getElementsByClassName("memory-card flip")
+
+function complete() {
+    if (matchedCard.length == 16) {
+        window.clearInterval(interval);
+    }
+}
+
 // Timer starts on first card click.
 $(".memory-card").click(function(){
     startTimer();
