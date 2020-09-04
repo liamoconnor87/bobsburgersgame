@@ -18,15 +18,9 @@ $(document).ready(function(){
 	}, 700)
 	$(".load img").animate({
 		opacity: '0',
-	}, 500)
-	$(".load").delay(4100).animate({
-        opacity: '0',
     }, 500)
     
-    $(".load").delay(4600).animate({
-        height: '0',
-        width: '0',
-	}, 100)
+	$(".load").delay(4100).fadeOut(500);
 
 	$(".title").delay(4600).animate({
 		opacity: '1',
