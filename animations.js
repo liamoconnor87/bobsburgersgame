@@ -20,8 +20,13 @@ $(document).ready(function(){
 		opacity: '0',
 	}, 500)
 	$(".load").delay(4100).animate({
-		opacity: '0',
-	}, 500)
+        opacity: '0',
+    }, 500)
+    
+    $(".load").delay(4600).animate({
+        height: '0',
+        width: '0',
+	}, 100)
 
 	$(".title").delay(4600).animate({
 		opacity: '1',
@@ -29,5 +34,5 @@ $(document).ready(function(){
 
 	$(".game-container").delay(4800).animate({
 		opacity: '1',
-	}, 500)
+    }, 500)
 })
