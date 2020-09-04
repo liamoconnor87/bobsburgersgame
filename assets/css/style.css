@@ -48,23 +48,19 @@ body {
 
 /* Memory Game */
 .game-container {
-    width: 95%;
+    width: 350px;
+    height: 350px;
     margin: auto;
     background-color: rgba(255, 240, 0, .7);
-    padding-top: 10px;
     border: 5px solid black;
-}
-
-.row-container {
-	margin-bottom: 15px;
-	display: flex;
-	flex-direction: row;
-	perspective: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    perspective: 1000px;
 }
 
 .memory-card {
-	height: 75px;
-	width: 75px;
+	height: 25%;
+	width: 25%;
 	border-radius: 50%;
 	position: relative;
 	margin: auto;
@@ -85,12 +81,13 @@ body {
 }
 
 .front-face, .back-face {
-	margin: auto;
-	height: inherit;
-	width: inherit;
+	height: 100%;
+	width: 100%;
+    margin: auto;
+    position: absolute;
 	border-radius: 50%;
 	background-color: black;
-	position: absolute;
+    border: solid 3px red;
 	backface-visibility: hidden;
 }
 
