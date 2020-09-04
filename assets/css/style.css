@@ -97,6 +97,25 @@ body {
     border: solid 3px red;
 }
 
+/* Load animation */
+.load {
+	background-color: white;
+	position: fixed;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+}
+
+.load img {
+	display: block;
+	margin: auto;
+	opacity: 0;
+}
+
+.title, .game-container {
+	opacity: 0;
+}
+
 /* Image URL's */
 /* Background images */
 .restaurant-bg {
