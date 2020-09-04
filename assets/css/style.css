@@ -13,8 +13,8 @@ body {
 /* Game Title and Counter */
 .title {
 	width: 100%;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 30px;
+	padding-bottom: 20px;
 }
 
 .logo {
@@ -59,8 +59,8 @@ body {
 }
 
 .memory-card {
-	height: 25%;
-	width: 25%;
+	height: 24%;
+	width: 24%;
 	border-radius: 50%;
 	position: relative;
 	margin: auto;
