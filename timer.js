@@ -78,10 +78,8 @@ function stopTimer() {
     if (matchedCard.length == 16) {
         window.clearInterval(interval);
 
-        $(".board-container").fadeIn(500);
-        $(".complete-box").animate({
-            opacity: '1',
-        })
+        $(".board-container").delay(500).fadeIn(500);
+
     }
 }
 
