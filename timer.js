@@ -79,6 +79,9 @@ function stopTimer() {
         window.clearInterval(interval);
 
         $(".board-container").fadeIn(500);
+        $(".complete-box").animate({
+            opacity: '1',
+        })
     }
 }
 
