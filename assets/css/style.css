@@ -39,7 +39,7 @@ body {
 }
 
 .current-score {
-	font-size: 23px;
+	font-size: 14px;
 	width: 50%;
 }
 
@@ -125,7 +125,7 @@ body {
     position: fixed;
     width: 100vw;
     height: 100vh;
-    display: flex; /*<------ flex */
+    display: none; /*<------ flex */
     z-index: 99;
 }
 
@@ -234,13 +234,24 @@ body {
 /* Smart device layouts */
 
 @media screen and (min-width: 400px) {
+
+    .current-score {
+	    font-size: 17px;
+    }
+
     .game-container {
         width: 390px;
         height: 390px;
     }
+
 }
 
 @media screen and (min-width: 550px) {
+
+    .current-score {
+	    font-size: 20px;
+    }
+
     .game-container {
         width: 450px;
         height: 450px;
