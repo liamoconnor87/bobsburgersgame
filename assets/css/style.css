@@ -251,6 +251,14 @@ body {
         height: 390px;
     }
 
+    .complete-box {
+        height: 210px;
+        width: 350px;
+    }
+
+    .score-board {
+        margin: 105px auto auto auto;
+    }
 }
 
 @media screen and (min-width: 550px) {
@@ -266,5 +274,18 @@ body {
 
     .back-face, .front-face {
         border: solid 5px red;
+    }
+
+    .complete-box {
+        height: 240px;
+        width: 400px;
+    }
+
+    .score-board {
+        margin: 118px auto auto auto;
+    }
+
+    .final-display {
+	    font-size: 21px;
     }
 }
