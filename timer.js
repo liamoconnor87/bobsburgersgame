@@ -46,7 +46,9 @@ function stopWatch() {
 	}
 
 	// Display updated time.
-	document.getElementById("display").innerHTML = displayHours + ":" + displayMinutes + ":" + displaySeconds;
+    document.getElementById("display").innerHTML = displayHours + ":" + displayMinutes + ":" + displaySeconds;
+    // Display final time. 
+    document.getElementById("final-time").innerHTML = displayHours + ":" + displayMinutes + ":" + displaySeconds;
 }
 
 // Defined value to hold setInterval() function - set to null so function doesnt run when page loads. 
