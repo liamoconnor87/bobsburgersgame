@@ -20,7 +20,7 @@ body {
 .logo {
 	display: block;
 	width: 98%;
-	max-width: 800px;
+	max-width: 500px;
 	margin: auto;
 }
 
@@ -30,7 +30,7 @@ body {
 	flex-direction: row;
 	height: auto;
 	width: 80%;
-	max-width: 700px;
+	max-width: 400px;
 	color: black;
 	text-align: center;
 	background-color: red;
@@ -116,6 +116,25 @@ body {
 
 .title, .game-container {
 	opacity: 0;
+}
+
+/* Game Complete Modal */
+.game-complete {
+    position: fixed;
+    background-color:  rgba(255, 240, 0, .7);
+    width: 100vw;
+    height: 100vh;
+    display: none; /*<------ flex */
+    z-index: 99;
+}
+
+.complete-box {
+    height: 300px;
+    width: 80%;
+    background-color: red;
+    display: block;
+	margin: auto;
+    border: black solid 5px;
 }
 
 /* Image URL's */
@@ -204,20 +223,11 @@ body {
 
 @media screen and (min-width: 550px) {
     .game-container {
-        width: 500px;
-        height: 500px;
+        width: 450px;
+        height: 450px;
     }
 
     .back-face, .front-face {
         border: solid 5px red;
-    }
-}
-
-@media screen and (min-width: 700px) {
-    .game-container {
-        width: 580px;
-        height: 580px;
-        padding: 10px;
-        border: 8px solid black;
     }
 }
