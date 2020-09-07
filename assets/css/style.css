@@ -23,7 +23,7 @@ body {
 	width: 98%;
 	max-width: 500px;
 	margin: auto;
-    box-shadow: 5px 10px 25px rgba(61, 61, 61, 1);
+    box-shadow: 5px 10px 25px rgba(0, 0, 0, 0.705);
 }
 
 .watch-container {
@@ -37,7 +37,7 @@ body {
 	text-align: center;
 	background-color: red;
 	border: 4px solid black;
-    box-shadow: 5px 10px 25px rgb(0, 0, 0);
+    box-shadow: 5px 10px 25px rgba(0, 0, 0, 0.705);
 }
 
 .current-score {
@@ -59,7 +59,7 @@ body {
     border: 5px solid black;
     display: flex;
     flex-wrap: wrap;
-    box-shadow: 5px 10px 25px rgb(0, 0, 0);
+    box-shadow: 5px 10px 25px rgba(0, 0, 0, 0.705);
     perspective: 1000px;
 }
 
