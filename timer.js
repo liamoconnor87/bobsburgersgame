@@ -75,6 +75,8 @@ let matchedCard = document.getElementsByClassName("memory-card flip")
 function stopTimer() {
     if (matchedCard.length == 16) {
         window.clearInterval(interval);
+
+        $(".board-container").fadeIn(500);
     }
 }
 

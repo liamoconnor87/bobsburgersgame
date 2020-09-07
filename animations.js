@@ -29,4 +29,8 @@ $(document).ready(function(){
 	$(".game-container").delay(4800).animate({
 		opacity: '1',
     }, 500)
+
+    $(".game-complete").delay(5200).animate({
+		display: 'flex',
+	}, 500)
 })

@@ -123,12 +123,16 @@ body {
 }
 
 /* Game Complete Modal */
+.board-container {
+    display: none;
+}
+
 .game-complete {
     background-color:  rgba(252, 239, 84, .7);
     position: fixed;
     width: 100vw;
     height: 100vh;
-    display: none; /*<------ flex */
+    display: flex;
     z-index: 99;
 }
 
