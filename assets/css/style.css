@@ -161,6 +161,13 @@ body {
     box-shadow: 5px 10px 25px rgb(0, 0, 0);
 }
 
+.again {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 300px;
+}
+
 .score-board {
     width: 90%;
     text-align: center;
