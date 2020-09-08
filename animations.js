@@ -22,15 +22,13 @@ $(document).ready(function(){
     
 	$(".load").delay(4100).fadeOut(500);
 
-	$(".title").delay(4600).animate({
+	$(".title, .buttons").delay(4600).animate({
 		opacity: '1',
-	}, 500)
+    }, 500)
+    
 
 	$(".game-container").delay(4800).animate({
 		opacity: '1',
     }, 500)
 
-    $(".game-complete").delay(5200).animate({
-		display: 'flex',
-	}, 500)
 })

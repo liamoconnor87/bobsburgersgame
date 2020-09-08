@@ -78,7 +78,7 @@ function stopTimer() {
     if (matchedCard.length == 16) {
         window.clearInterval(interval);
 
-        $(".board-container").delay(500).fadeIn(500);
+        gameComplete();
 
     }
 }
@@ -88,3 +88,12 @@ $(".memory-card").click(function(){
     startTimer();
     stopTimer();
 })
+
+// Modal Game Complete.
+
+function gameComplete() {
+    $(".board-container").fadeIn(1000);
+    $(".game-complete").delay(1000).animate({
+        opacity: '1',
+    })
+}
