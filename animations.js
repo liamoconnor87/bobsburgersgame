@@ -31,15 +31,13 @@ $(document).ready(function(){
     }, 500)
 
     $(".again").click(function(){
+        $(".loadout").fadeIn(1000);
 
-        $("body").fadeOut(500);
+        setTimeout(reload, 2000);
 
-        setTimeout(reload, 501);
-
-        function reload() {
+        function reload(){
             window.location.reload(false);
-        }
-
+        };
     })
 
 })

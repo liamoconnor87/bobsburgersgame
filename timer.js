@@ -92,8 +92,8 @@ $(".memory-card").click(function(){
 // Modal Game Complete.
 
 function gameComplete() {
-    $(".board-container").fadeIn(200);
-    $(".game-complete").delay(2000).animate({
+    $(".board-container").fadeIn(500);
+    $(".complete-box").delay(1200).animate({
         opacity: '1',
-    }, 500)
+    }, 1000)
 }
