@@ -26,9 +26,20 @@ $(document).ready(function(){
 		opacity: '1',
     }, 500)
     
-
 	$(".game-container").delay(4800).animate({
 		opacity: '1',
     }, 500)
+
+    $(".again").click(function(){
+
+        $("body").fadeOut(500);
+
+        setTimeout(reload, 501);
+
+        function reload() {
+            window.location.reload(false);
+        }
+
+    })
 
 })

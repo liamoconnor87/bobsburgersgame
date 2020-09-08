@@ -95,5 +95,5 @@ function gameComplete() {
     $(".board-container").fadeIn(200);
     $(".game-complete").delay(2000).animate({
         opacity: '1',
-    })
+    }, 500)
 }

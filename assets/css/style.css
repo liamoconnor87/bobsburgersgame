@@ -184,6 +184,20 @@ body {
     background-color: rgb(255, 240, 0);
     border: solid black 3px;
     margin-top: 3px;
+    cursor: pointer;
+    transform: scale(1);
+}
+
+/* Click animation - Play again button */
+.again:active{
+    transform: scale(.97);
+    transition: .2s;
+}
+
+.again:hover {
+    background-color: rgb(55, 189, 217);
+    color: rgb(0, 0, 0);
+    border: solid white 3px;
 }
 
 /* Image URL's */
