@@ -171,7 +171,7 @@ body {
 .score-board {
     width: 90%;
     text-align: center;
-    margin: 90px auto auto auto;
+    margin: 75px auto auto auto;
     display: flex;
     flex-direction: row;
     color: white;
@@ -181,6 +181,14 @@ body {
 .final-display {
 	font-size: 17px;
 	width: 50%;
+}
+
+.again {
+    text-align: center;
+    width: 90%;
+    background-color: rgb(255, 240, 0);
+    border: solid black 3px;
+    margin-top: 3px;
 }
 
 /* Image URL's */
