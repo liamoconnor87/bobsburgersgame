@@ -73,6 +73,7 @@ body {
     flex-wrap: wrap;
     box-shadow: 5px 10px 25px rgba(0, 0, 0, 0.705);
     perspective: 1000px;
+    -webkit-perspective: 1000; /* iPhone's */
 }
 
 .memory-card {
@@ -106,6 +107,7 @@ body {
 	background-color: black;
     border: solid 3px red;
 	backface-visibility: hidden;
+    -webkit-backface-visibility: hidden; /* iPhone's */
 }
 
 .front-face{
