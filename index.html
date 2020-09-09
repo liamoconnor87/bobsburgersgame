@@ -149,9 +149,17 @@
 	</section>
 
     <!-- Theme Song -->
-    <audio autoplay>
+    <audio id="theme" onload="playTheme()">
         <source src="assets/sounds/bob_theme.mp3" type="audio/mpeg">
     </audio>
+
+    <script> 
+        var themeTune = document.getElementById("theme"); 
+
+        function playTheme() { 
+        themeTune.play(); 
+        }
+    </script>
 
 	<script src="game.js"></script>
     <script src="timer.js"></script>
