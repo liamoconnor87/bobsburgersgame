@@ -11,6 +11,54 @@ body {
     font-weight: 200;
 }
 
+/* Mute and Reset Button */
+
+.mute-button {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 8px;
+    margin: 5px;
+    padding: 0 5px;
+    cursor: pointer;
+    z-index: 99;
+    transform: scale(1);
+}
+
+.mute-button h1 {
+    height: 30px;
+    width: 30px;
+    color:rgb(0, 0, 0);
+    border: solid rgb(0, 0, 0) 3px;
+    border-radius: 50%;
+}
+.unmute {
+    display: none;
+}
+
+.button {
+	text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 8px;
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    background-color: white;
+    padding: 0 5px;
+    border: solid black 3px;
+    cursor: pointer;
+    opacity: 0;
+    transform: scale(1);
+}
+
+.click:active {
+    transform: scale(.97);
+    transition: .2s;
+}
+
+
 /* Game Title and Counter */
 .title {
 	width: 100%;
@@ -36,7 +84,7 @@ body {
 	max-width: 400px;
 	color: black;
 	text-align: center;
-	background-color: red;
+	background-color: rgb(218, 10, 0);
 	border: 4px solid black;
     box-shadow: 5px 10px 25px rgba(0, 0, 0, 0.705);
 }
@@ -44,21 +92,6 @@ body {
 .current-score {
 	font-size: 14px;
 	width: 50%;
-}
-
-.buttons {
-	text-align: center;
-    position: absolute;
-    top: 0;
-    right: 0;
-    font-size: 8px;
-    color: rgb(0, 0, 0);
-    margin: 5px;
-    background-color: white;
-    padding: 0 5px;
-    border: solid black 3px;
-    cursor: pointer;
-    opacity: 0;
 }
 
 /* Memory Game */
@@ -85,6 +118,7 @@ body {
 	transform: scale(1);
     transform-style: preserve-3d;
     transition: .5s;
+    cursor: pointer;
 }
 
 /*Click on card animation*/
@@ -142,7 +176,7 @@ body {
     height: 100vh;
     background-color: white;
     opacity: 1;
-    z-index: 99;
+    z-index: 98;
     display: none;
 }
 
@@ -157,7 +191,7 @@ body {
     width: 100vw;
     height: 100vh;
     display: flex;
-    z-index: 98;
+    z-index: 97;
 }
 
 .complete-box {
