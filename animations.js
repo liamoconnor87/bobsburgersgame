@@ -45,4 +45,6 @@ $(document).ready(function(){
         $(".mute, .unmute").toggle();
     })
 
+    $(".theme").play()
+
 })
