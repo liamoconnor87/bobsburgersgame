@@ -33,6 +33,7 @@ function flipCard() {
             secondCard.removeEventListener('click', flipCard);
 
             resetBoard()
+            soundConfirm()
         } else {
 
             lockBoard = true;
