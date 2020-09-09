@@ -30,6 +30,7 @@ $(document).ready(function(){
 		opacity: '1',
     }, 500)
 
+    /* Play again Animation. */
     $(".again").click(function(){
         $(".loadout").fadeIn(1000);
 
@@ -38,6 +39,10 @@ $(document).ready(function(){
         function reload(){
             window.location.reload(false);
         };
+    })
+    /* Mute/Unmute animation. */
+    $(".mute-button").click(function(){
+        $(".mute, .unmute").toggle();
     })
 
 })
