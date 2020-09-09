@@ -31,7 +31,7 @@ function soundConfirm() {
         playTeddy();
     } else if(document.getElementById("marshmellow") === document.getElementById("marshmellow")) {
         playMarshmellow();
-    } else (document.getElementById("dryap") === document.getElementById("dryap")) {
+    } else if(document.getElementById("dryap") === document.getElementById("dryap")) {
         playDrYap();
     }
 }
