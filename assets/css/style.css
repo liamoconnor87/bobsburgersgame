@@ -11,6 +11,7 @@ body {
     font-weight: 200;
 }
 
+
 /* Mute and Reset Button */
 
 .mute-button {
@@ -32,6 +33,7 @@ body {
     color:rgb(0, 0, 0);
     border: solid rgb(0, 0, 0) 3px;
     border-radius: 50%;
+    background-color: rgb(55, 189, 217);
 }
 .unmute {
     display: none;
@@ -94,6 +96,7 @@ body {
 	width: 50%;
 }
 
+
 /* Memory Game */
 .game-container {
     width: 320px;
@@ -121,11 +124,13 @@ body {
     cursor: pointer;
 }
 
+
 /*Click on card animation*/
 .memory-card:active{
     transform: scale(.97);
     transition: .2s;
 }
+
 
 /* Flip card animation */
 .memory-card.flip{
@@ -147,6 +152,7 @@ body {
 .front-face{
     transform: rotateY(180deg);
 }
+
 
 /* Load animation */
 .load {
@@ -179,6 +185,7 @@ body {
     z-index: 98;
     display: none;
 }
+
 
 /* Game Complete Modal */
 .board-container {
@@ -234,6 +241,7 @@ body {
     transform: scale(1);
 }
 
+
 /* Click animation - Play again button */
 .again:active{
     transform: scale(.97);
@@ -245,6 +253,7 @@ body {
     color: rgb(0, 0, 0);
     border: solid white 3px;
 }
+
 
 /* Image URL's */
 /* Background images */
@@ -263,6 +272,7 @@ body {
 	background-size: cover;
 	background-position: center;
 }
+
 
 /* Front face of cards*/
 .bob {
@@ -320,6 +330,7 @@ body {
 	background-size: cover;
 	background-position: center;
 }
+
 
 /* Smart device layouts */
 
