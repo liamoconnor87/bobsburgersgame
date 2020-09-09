@@ -33,6 +33,8 @@ function soundConfirm() {
         playMarshmellow();
     } else if(document.getElementById("dryap") === document.getElementById("dryap")) {
         playDrYap();
+    } else {
+        continue;
     }
 }
 
