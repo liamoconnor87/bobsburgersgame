@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+    play();
+
 	/* Burger Loading Screen */
 	$(".load img").delay(500).animate({
 		opacity: '1',
