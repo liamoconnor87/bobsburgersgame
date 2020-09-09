@@ -34,7 +34,7 @@ function soundConfirm() {
     } else if(document.getElementById("dryap") === document.getElementById("dryap")) {
         playDrYap();
     } else {
-        continue;
+        alert("Oh no! An error!");
     }
 }
 
