@@ -10,17 +10,26 @@ function playComplete() {
     audio.play();
 }
 
+// Plays when card doesnt match.
+function playWrong() {
+    var audio = document.getElementById("idiot");
+    audio.play();
+}
+
+
+
 // Mutes sound. 
 var theme = document.getElementById("theme");
 var complete = document.getElementById("alright");
-var bob = document.getElementById("bob");
-var linda = document.getElementById("linda");
-var tina = document.getElementById("tina");
-var gene = document.getElementById("gene");
-var louise = document.getElementById("louise");
-var teddy = document.getElementById("teddy");
-var marshmellow = document.getElementById("marshmellow");
-var dryap = document.getElementById("dryap");
+var bob = document.getElementById("bobsound");
+var linda = document.getElementById("lindasound");
+var tina = document.getElementById("tinasound");
+var gene = document.getElementById("genesound");
+var louise = document.getElementById("louisesound");
+var teddy = document.getElementById("teddysound");
+var marshmellow = document.getElementById("marshmellowsound");
+var dryap = document.getElementById("dryapsound");
+var wrong = document.getElementById("idiot");
 
 function enableMute() { 
   theme.muted = true;
@@ -33,6 +42,7 @@ function enableMute() {
   teddy.muted = true;
   marshmellow.muted = true;
   dryap.muted = true;
+  wrong.muted = true;
 } 
 
 function disableMute() { 
@@ -46,68 +56,96 @@ function disableMute() {
   teddy.muted = false;
   marshmellow.muted = false;
   dryap.muted = false;
+  wrong.muted = false;
 }
 
-// Triggers when there is a match!
-function soundConfirm() {
-    if(document.getElementById("bob") === document.getElementById("bob")) {
+// When card matches. 
+function checkBob() {
+    if(document.getElementsByClassName("bobmatch") === document.getElementsByClassName("bobmatch")) {
         playBob();
-    } else if(document.getElementById("linda") === document.getElementById("linda")) {
-        playLinda();
-    } else if(document.getElementById("tina") === document.getElementById("tina")) {
-        playTina();
-    } else if(document.getElementById("gene") === document.getElementById("gene")) {
-        playGene();
-    } else if(document.getElementById("louise") === document.getElementById("louise")) {
-        playLouise();
-    } else if(document.getElementById("teddy") === document.getElementById("teddy")) {
-        playTeddy();
-    } else if(document.getElementById("marshmellow") === document.getElementById("marshmellow")) {
-        playMarshmellow();
-    } else if(document.getElementById("dryap") === document.getElementById("dryap")) {
-        playDrYap();
-    } else {
-        console.log("Error!");
     }
 }
 
+function checkLinda() {
+    if(document.getElementsByClassName("lindamatch") === document.getElementsByClassName("lindamatch")) {
+        playLinda();
+    }
+}
+
+function checkTina() {
+    if(document.getElementsByClassName("tinamatch") === document.getElementsByClassName("tinamatch")) {
+        playTina();
+    }
+}
+
+function checkGene() {
+    if(document.getElementsByClassName("genematch") === document.getElementsByClassName("genematch")) {
+        playGene();
+    }
+}
+
+function checkLouise() {
+    if(document.getElementsByClassName("louisematch") === document.getElementsByClassName("louisematch")) {
+        playLouise();
+    }
+}
+
+function checkTeddy() {
+    if(document.getElementsByClassName("teddymatch") === document.getElementsByClassName("teddymatch")) {
+        playTeddy();
+    }
+}
+
+function checkMarshmellow() {
+    if(document.getElementsByClassName("marshmellowmatch") === document.getElementsByClassName("marshmellowmatch")) {
+        playMarshmellow();
+    }
+}
+
+function checkDrYap() {
+    if(document.getElementsByClassName("dryapmatch") === document.getElementsByClassName("dryapmatch")) {
+        playDrYap();
+    }
+}
+
+
 // Card match sounds
 function playBob() {
-    var audio = document.getElementById("bob");
+    var audio = document.getElementById("bobsound");
     audio.play();
 }
 
 function playLinda() {
-    var audio = document.getElementById("linda");
+    var audio = document.getElementById("lindasound");
     audio.play();
 }
 
 function playTina() {
-    var audio = document.getElementById("tina");
+    var audio = document.getElementById("tinasound");
     audio.play();
 }
 
 function playGene() {
-    var audio = document.getElementById("gene");
+    var audio = document.getElementById("genesound");
     audio.play();
 }
 
 function playLouise() {
-    var audio = document.getElementById("louise");
+    var audio = document.getElementById("louisesound");
     audio.play();
 }
 
 function playTeddy() {
-    var audio = document.getElementById("teddy");
+    var audio = document.getElementById("teddysound");
     audio.play();
 }
 
 function playMarshmellow() {
-    var audio = document.getElementById("marshmellow");
+    var audio = document.getElementById("marshmellowsound");
     audio.play();
 }
 
 function playDrYap() {
-    var audio = document.getElementById("dryap");
+    var audio = document.getElementById("dryapsound");
     audio.play();
 }

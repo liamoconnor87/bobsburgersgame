@@ -32,8 +32,16 @@ function flipCard() {
             firstCard.removeEventListener('click', flipCard);
             secondCard.removeEventListener('click', flipCard);
 
+            checkBob()
+            checkLinda()
+            checkTina()
+            checkGene()
+            checkLouise()
+            checkTeddy()
+            checkMarshmellow()
+            checkDrYap()
             resetBoard()
-            soundConfirm()
+            
         } else {
 
             lockBoard = true;
@@ -43,7 +51,9 @@ function flipCard() {
             firstCard.classList.remove('flip');
             secondCard.classList.remove('flip');
 
+            playWrong()
             resetBoard()
+            
             }, 1000);
         }
     }
