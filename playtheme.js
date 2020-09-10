@@ -10,14 +10,6 @@ function playComplete() {
     audio.play();
 }
 
-// Plays when card doesnt match.
-function playWrong() {
-    var audio = document.getElementById("idiot");
-    audio.play();
-}
-
-
-
 // Mutes sound. 
 var theme = document.getElementById("theme");
 var complete = document.getElementById("alright");
@@ -29,7 +21,7 @@ var louise = document.getElementById("louisesound");
 var teddy = document.getElementById("teddysound");
 var marshmellow = document.getElementById("marshmellowsound");
 var dryap = document.getElementById("dryapsound");
-var wrong = document.getElementById("idiot");
+
 
 function enableMute() { 
   theme.muted = true;
@@ -42,7 +34,6 @@ function enableMute() {
   teddy.muted = true;
   marshmellow.muted = true;
   dryap.muted = true;
-  wrong.muted = true;
 } 
 
 function disableMute() { 
@@ -56,60 +47,10 @@ function disableMute() {
   teddy.muted = false;
   marshmellow.muted = false;
   dryap.muted = false;
-  wrong.muted = false;
-}
-
-// When card matches. 
-function checkBob() {
-    if(document.getElementsByClassName("bobmatch") === document.getElementsByClassName("bobmatch")) {
-        playBob();
-    }
-}
-
-function checkLinda() {
-    if(document.getElementsByClassName("lindamatch") === document.getElementsByClassName("lindamatch")) {
-        playLinda();
-    }
-}
-
-function checkTina() {
-    if(document.getElementsByClassName("tinamatch") === document.getElementsByClassName("tinamatch")) {
-        playTina();
-    }
-}
-
-function checkGene() {
-    if(document.getElementsByClassName("genematch") === document.getElementsByClassName("genematch")) {
-        playGene();
-    }
-}
-
-function checkLouise() {
-    if(document.getElementsByClassName("louisematch") === document.getElementsByClassName("louisematch")) {
-        playLouise();
-    }
-}
-
-function checkTeddy() {
-    if(document.getElementsByClassName("teddymatch") === document.getElementsByClassName("teddymatch")) {
-        playTeddy();
-    }
-}
-
-function checkMarshmellow() {
-    if(document.getElementsByClassName("marshmellowmatch") === document.getElementsByClassName("marshmellowmatch")) {
-        playMarshmellow();
-    }
-}
-
-function checkDrYap() {
-    if(document.getElementsByClassName("dryapmatch") === document.getElementsByClassName("dryapmatch")) {
-        playDrYap();
-    }
 }
 
 
-// Card match sounds
+// Card flip sound.
 function playBob() {
     var audio = document.getElementById("bobsound");
     audio.play();

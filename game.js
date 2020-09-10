@@ -32,14 +32,6 @@ function flipCard() {
             firstCard.removeEventListener('click', flipCard);
             secondCard.removeEventListener('click', flipCard);
 
-            checkBob()
-            checkLinda()
-            checkTina()
-            checkGene()
-            checkLouise()
-            checkTeddy()
-            checkMarshmellow()
-            checkDrYap()
             resetBoard()
             
         } else {
@@ -51,7 +43,6 @@ function flipCard() {
             firstCard.classList.remove('flip');
             secondCard.classList.remove('flip');
 
-            playWrong()
             resetBoard()
             
             }, 1000);
@@ -70,7 +61,7 @@ function resetBoard() {
 i = 0;
 
 function count() {
-   $(".count").text(++i);
+    $(".count").text(++i);
 }
 
 //card shuffle
