@@ -42,6 +42,7 @@ $(document).ready(function(){
             window.location.reload(false);
         };
     })
+    
     /* Mute/Unmute animation. */
     $(".mute-button").click(function(){
         $(".mute, .unmute").toggle();

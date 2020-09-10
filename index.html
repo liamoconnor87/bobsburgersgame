@@ -10,7 +10,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 	<title>Bob's Burgers Memory Game</title>
 </head>
-<body class="restaurant-bg">
+<body onload="play()" class="restaurant-bg">
 
     <!-- Mute Button -->
     <div onclick="enableMute()" class="mute-button mute click">
@@ -65,7 +65,7 @@
 	<!-- Memory Game -->
 	<section class="game-container">
 
-		<div id="bob" class="memory-card" data-name="bob">
+		<div id="bob" class="memory-card" onclick="play()" data-name="bob">
 			<div class="front-face bob"></div>
 			<div class="back-face"></div>
 		</div>
@@ -75,7 +75,7 @@
 			<div class="back-face"></div>
 		</div>
 
-		<div id="linda" class="memory-card" data-name="linda">
+		<div id="linda" class="memory-card" onclick="play()" data-name="linda">
 			<div class="front-face linda"></div>
 			<div class="back-face"></div>
 		</div>
@@ -86,7 +86,7 @@
 		</div>
 
 		
-		<div id="tina" class="memory-card" data-name="tina">
+		<div id="tina" class="memory-card" onclick="play()" data-name="tina">
 			<div class="front-face tina"></div>
 			<div class="back-face"></div>
 		</div>
@@ -96,7 +96,7 @@
 			<div class="back-face"></div>
 		</div>
 
-		<div id="gene" class="memory-card" data-name="gene">
+		<div id="gene" class="memory-card" onclick="play()" data-name="gene">
 			<div class="front-face gene"></div>
 			<div class="back-face"></div>
 		</div>
@@ -106,7 +106,7 @@
 			<div class="back-face"></div>
 		</div>
 
-		<div id="louise" class="memory-card" data-name="louise">
+		<div id="louise" class="memory-card" onclick="play()" data-name="louise">
 			<div class="front-face louise"></div>
 			<div class="back-face"></div>
 		</div>
@@ -116,7 +116,7 @@
 			<div class="back-face"></div>
 		</div>
 
-		<div id="teddy" class="memory-card" data-name="teddy">
+		<div id="teddy" class="memory-card" onclick="play()" data-name="teddy">
 			<div class="front-face teddy"></div>
 			<div class="back-face"></div>
 		</div>
@@ -126,7 +126,7 @@
 			<div class="back-face"></div>
 		</div>
 
-		<div id="marshmellow" class="memory-card" data-name="marshmellow">
+		<div id="marshmellow" class="memory-card" onclick="play()" data-name="marshmellow">
 			<div class="front-face marshmellow"></div>
 			<div class="back-face"></div>
 		</div>
@@ -136,7 +136,7 @@
 			<div class="back-face"></div>
 		</div>
 
-		<div id="dryap" class="memory-card" data-name="dryap">
+		<div id="dryap" class="memory-card" onclick="play()" data-name="dryap">
 			<div class="front-face dryap"></div>
 			<div class="back-face"></div>
 		</div>
