@@ -220,7 +220,6 @@ body {
     display: flex;
     flex-direction: row;
     color: white;
-    padding: auto;
 }
 
 .final-display {
