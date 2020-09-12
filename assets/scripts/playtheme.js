@@ -6,15 +6,15 @@ function play() {
 
 // Plays when game completed.
 function playComplete() {
-    theme.volume = 0.5;
-    bob.volume = 0.5;
-    linda.volume = 0.5;
-    tina.volume = 0.5;
-    gene.volume = 0.5;
-    louise.volume = 0.5;
-    teddy.volume = 0.5;
-    marshmellow.volume = 0.5;
-    dryap.volume = 0.5;
+    theme.volume = 0.2;
+    bob.volume = 0.2;
+    linda.volume = 0.2;
+    tina.volume = 0.2;
+    gene.volume = 0.2;
+    louise.volume = 0.2;
+    teddy.volume = 0.2;
+    marshmellow.volume = 0.2;
+    dryap.volume = 0.2;
 
     var audio = document.getElementById("alright");
     audio.play();
