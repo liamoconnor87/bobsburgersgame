@@ -437,6 +437,26 @@ body {
 @media screen and (min-height: 1000px) {
 
     .logo {
+        width: 700px;
+    }
+
+    .watch-container {
+        width: 680px;
+    }
+
+    .game-container {
+        width: 550px;
+        height: 550px;
+    }
+
+    .current-score {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-height: 1300px) {
+
+    .logo {
         width: 780px;
     }
 
@@ -451,5 +471,10 @@ body {
 
     .current-score {
         font-size: 30px;
+    }
+
+    .rule-box {
+        width: 500px;
+        font-size: 20px;
     }
 }
