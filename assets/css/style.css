@@ -116,6 +116,7 @@ body {
 	border-radius: 50%;
 	position: relative;
 	margin: auto;
+    cursor: pointer;
 	transform: scale(1);
     transform-style: preserve-3d;
     transition: .5s;
@@ -188,13 +189,40 @@ body {
     display: none;
 }
 
-.start-complete {
+.welcome {
     background-color:  rgba(55, 189, 217, .7);
     position: fixed;
     width: 100vw;
     height: 100vh;
     display: flex;
     z-index: 97;
+}
+
+.rule-box {
+    height: auto;
+    width: 315px;
+    background-color:  rgb(255, 255, 255);
+    display: block;
+	margin: auto;
+    box-shadow: 5px 10px 25px rgb(0, 0, 0);
+    border: 5px solid rgb(0, 0, 0);
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.play {
+    padding: 5px;
+    background-color: rgb(218, 10, 0);
+    border: solid black 3px;
+    margin: 10px auto auto auto;
+    cursor: pointer;
+    transform: scale(1);
+    width: 100px;
+}
+
+.play:hover {
+    background-color: rgb(255, 240, 0);
 }
 
 /* Game Complete Modal */

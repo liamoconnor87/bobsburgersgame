@@ -10,7 +10,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 	<title>Bob's Burgers Memory Game</title>
 </head>
-<body onload="play()" class="restaurant-bg">
+<body class="restaurant-bg">
 
     <!-- Mute Button -->
     <div onclick="enableMute()" class="mute-button mute click">
@@ -34,14 +34,33 @@
     <!-- Game Start Modal -->
     <div class="start-container">
         
-        <div class="start-complete">
+        <div class="welcome">
         
-            <div class="complete-box">
-                <div class="score-board">
-                    <div class="final-display"><i class="fas fa-stopwatch"></i> : <span id="final-time">00:00:00</span></div>
-                    <div class="final-display">Combos : <span class="count">0</span></div>
-                </div>
-                <div class="again final-display">Play again?</div>
+            <div class="rule-box">
+                <h1>The Bob's Burgers Memory Game.</h1>
+                <h2>Welcome!</h2>
+                <br>
+                <p class="rules">
+                    <h4>Rules.</h4>
+                    Flip the burger over to reveal the front face.
+                    <br>
+                    <br>
+                    Match two of the front facing burgers you have flipped.
+                    <br>
+                    <br>
+                    You can only flip two burgers a time. If they match they stay facing up. If they dont match they flip back!
+                    <br>
+                    <br>
+                    To complete the game you need to match all burgers with their front face.
+                    <br>
+                    <br>
+                    Your time starts, on the first flip and you are counted on the number of burger combinations it takes to complete the game.
+                    <br>
+                </p>
+
+                <p class="play click">Flip!</p>
+                
+                
             </div>
 
         </div>
@@ -86,7 +105,7 @@
 			<div class="back-face"></div>
 		</div>
 
-		<div class="memory-card" onclick="playBob()"  data-name="bob">
+		<div class="memory-card" onclick="play()" data-name="bob">
 			<div class="front-face bob"></div>
 			<div class="back-face"></div>
 		</div>
@@ -96,7 +115,7 @@
 			<div class="back-face"></div>
 		</div>
 
-		<div class="memory-card" onclick="playLinda()" data-name="linda">
+		<div class="memory-card" onclick="play()" data-name="linda">
 			<div class="front-face linda"></div>
 			<div class="back-face"></div>
 		</div>
@@ -107,7 +126,7 @@
 			<div class="back-face"></div>
 		</div>
 
-		<div class="memory-card" onclick="playTina()" data-name="tina">
+		<div class="memory-card" onclick="play()" data-name="tina">
 			<div class="front-face tina"></div>
 			<div class="back-face"></div>
 		</div>
@@ -117,7 +136,7 @@
 			<div class="back-face"></div>
 		</div>
 
-		<div class="memory-card" onclick="playGene()" data-name="gene">
+		<div class="memory-card" onclick="play()" data-name="gene">
 			<div class="front-face gene"></div>
 			<div class="back-face"></div>
 		</div>
@@ -127,7 +146,7 @@
 			<div class="back-face"></div>
 		</div>
 
-		<div class="memory-card" onclick="playLouise()" data-name="louise">
+		<div class="memory-card" onclick="play()" data-name="louise">
 			<div class="front-face louise"></div>
 			<div class="back-face"></div>
 		</div>
@@ -137,7 +156,7 @@
 			<div class="back-face"></div>
 		</div>
 
-		<div class="memory-card" onclick="playTeddy()" data-name="teddy">
+		<div class="memory-card" onclick="play()" data-name="teddy">
 			<div class="front-face teddy"></div>
 			<div class="back-face"></div>
 		</div>
@@ -147,7 +166,7 @@
 			<div class="back-face"></div>
 		</div>
 
-		<div class="memory-card" onclick="playMarshmellow()" data-name="marshmellow">
+		<div class="memory-card" onclick="play()" data-name="marshmellow">
 			<div class="front-face marshmellow"></div>
 			<div class="back-face"></div>
 		</div>
@@ -157,7 +176,7 @@
 			<div class="back-face"></div>
 		</div>
 
-		<div class="memory-card" onclick="playDrYap()" data-name="dryap">
+		<div class="memory-card" onclick="play()" data-name="dryap">
 			<div class="front-face dryap"></div>
 			<div class="back-face"></div>
 		</div>

@@ -1,7 +1,5 @@
 $(document).ready(function(){
 
-    play();
-
 	/* Burger Loading Screen */
 	$(".load img").delay(500).animate({
 		opacity: '1',
@@ -34,7 +32,13 @@ $(document).ready(function(){
 		opacity: '1',
     }, 500)
 
-    /* Play again Animation. */
+    /* Start game animation. */
+    $(".play").click(function(){
+        play();
+        $(".start-container").fadeOut(500);
+    })
+
+    /* Play again animation. */
     $(".again").click(function(){
         $(".loadout").fadeIn(1000);
 
