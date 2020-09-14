@@ -386,3 +386,15 @@ body {
     }
 
 }
+
+@media screen and (min-height: 1000px) {
+
+    .title {
+        max-width: 780px;
+    }
+
+    .game-container {
+        width: 750px;
+        height: 750px;
+    }
+}
