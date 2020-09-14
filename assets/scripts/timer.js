@@ -1,6 +1,6 @@
 // Defined time values.
 let seconds = 0;
-let minutes =0;
+let minutes = 0;
 let hours = 0;
 
 // Defined display values. 

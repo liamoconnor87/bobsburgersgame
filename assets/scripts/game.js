@@ -4,14 +4,36 @@ let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
 
+function resetBoard() {
+    hasFlippedCard = false;
+    lockBoard = false;
+    firstCard = null;
+    secondCard = null;
+}
+
+// Flip counter.
+let combos = 0;
+
+function count() {
+    $(".count").text(++combos);
+}
+
+// Card shuffle
+(function shuffle() {
+    cards.forEach(card => {
+        let cardShuffle = Math.floor(Math.random()*16);
+        card.style.order = cardShuffle;
+    });
+})();
+
 function flipCard() {
 
     if (lockBoard) return;
 
-    //prevents click of same card twice
+    // Prevents click of same card twice
     if (this === firstCard) return;
 
-    //flip card animation
+    // Flip card animation
     this.classList.add('flip');
 
     if (!hasFlippedCard) {
@@ -49,27 +71,5 @@ function flipCard() {
         }
     }
 }
-
-function resetBoard() {
-    hasFlippedCard = false;
-    lockBoard = false;
-    firstCard = null;
-    secondCard = null;
-}
-
-// Flip counter.
-;let combos = 0;
-
-function count() {
-    $(".count").text(++combos);
-}
-
-//card shuffle
-(function shuffle() {
-    cards.forEach(card => {
-        let cardShuffle = Math.floor(Math.random()*16);
-        card.style.order = cardShuffle;
-    });
-})();
 
 cards.forEach(card => card.addEventListener('click', flipCard));
