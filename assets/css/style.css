@@ -72,7 +72,6 @@ body {
 .logo {
 	display: block;
 	width: 98%;
-	max-width: 500px;
 	margin: auto;
     box-shadow: 5px 10px 25px rgba(0, 0, 0, 0.705);
 }
@@ -83,7 +82,6 @@ body {
 	flex-direction: row;
 	height: auto;
 	width: 80%;
-	max-width: 400px;
 	color: black;
 	text-align: center;
 	background-color: rgb(218, 10, 0);
@@ -358,6 +356,14 @@ body {
 }
 
 @media screen and (min-width: 550px) {
+
+    .logo {
+        width: 500px;
+    }
+
+    .watch-container {
+        width: 400px;
+    }
 
     .current-score {
 	    font-size: 20px;
