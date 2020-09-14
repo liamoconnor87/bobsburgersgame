@@ -22,7 +22,9 @@ $(document).ready(function(){
 		opacity: '0',
     }, 500)
     
-	$(".load").delay(4100).fadeOut(500);
+    $(".load").delay(4100).fadeOut(500);
+    
+    $(".start-container").delay(4100).fadeIn(500);
 
 	$(".title, .button").delay(4600).animate({
 		opacity: '1',

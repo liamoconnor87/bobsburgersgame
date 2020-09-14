@@ -183,6 +183,19 @@ body {
     display: none;
 }
 
+/* Game Start Modal */
+.start-container {
+    display: none;
+}
+
+.start-complete {
+    background-color:  rgba(55, 189, 217, .7);
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    z-index: 97;
+}
 
 /* Game Complete Modal */
 .board-container {
