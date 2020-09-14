@@ -79,7 +79,7 @@ function stopTimer() {
         window.clearInterval(interval);
 
         gameComplete();
-        playComplete();
+        playBob();
 
     }
 }
