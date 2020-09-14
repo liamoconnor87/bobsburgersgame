@@ -279,7 +279,7 @@ body {
 .score-board {
     width: 90%;
     text-align: center;
-    margin: 75px auto auto auto;
+    margin: 75px auto 5px auto;
     display: flex;
     flex-direction: row;
     color: white;
@@ -290,26 +290,28 @@ body {
 	width: 50%;
 }
 
-.again {
+.play-options {
     display: block;
     margin: auto;
     text-align: center;
-    width: 160px;
+    width: 250px;
+    cursor: pointer;
+}
+
+.again, .lvl-two {
     background-color: rgb(255, 240, 0);
     border: solid black 3px;
-    margin-top: 3px;
-    cursor: pointer;
-    transform: scale(1);
+    padding: 4px;
 }
-
 
 /* Click animation - Play again button */
-.again:active{
-    transform: scale(.97);
-    transition: .2s;
+.again:hover {
+    background-color: rgb(55, 189, 217);
+    color: rgb(0, 0, 0);
+    border: solid white 3px;
 }
 
-.again:hover {
+.lvl-two:hover {
     background-color: rgb(55, 189, 217);
     color: rgb(0, 0, 0);
     border: solid white 3px;
