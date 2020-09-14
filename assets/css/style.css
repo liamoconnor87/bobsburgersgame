@@ -389,8 +389,12 @@ body {
 
 @media screen and (min-height: 1000px) {
 
-    .title {
+    .logo {
         width: 780px;
+    }
+
+    .watch-container {
+        width: 680px;
     }
 
     .game-container {
