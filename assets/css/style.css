@@ -407,4 +407,8 @@ body {
         width: 750px;
         height: 750px;
     }
+
+    .current-score {
+        font-size: 30px;
+    }
 }
