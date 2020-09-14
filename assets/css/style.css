@@ -50,7 +50,6 @@ body {
     background-color: white;
     padding: 0 5px;
     border: solid black 3px;
-    cursor: pointer;
     opacity: 0;
     transform: scale(1);
 }
@@ -60,6 +59,33 @@ body {
     transition: .2s;
 }
 
+.options {
+    display: none;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.blue-yes, .red-no{
+    padding: 0 4px 0 4px;
+    border: solid rgb(255, 255, 255) 3px;
+    border-top: rgb(0, 0, 0);
+    border-bottom: rgb(0, 0, 0);
+    background-color: rgb(255, 240, 0);
+}
+
+.red-no:hover {
+    text-decoration: underline;
+    background-color: rgb(218, 10, 0);
+    border: solid black 3px;
+}
+
+.blue-yes:hover {
+    text-decoration: underline;
+    background-color: rgb(55, 189, 217);
+    border: solid black 3px;
+}
 
 /* Game Title and Counter */
 .title {
@@ -124,7 +150,7 @@ body {
 
 
 /*Click on card animation*/
-.memory-card:active{
+.memory-card:active {
     transform: scale(.97);
     transition: .2s;
 }

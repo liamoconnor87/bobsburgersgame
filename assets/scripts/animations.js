@@ -54,4 +54,15 @@ $(document).ready(function(){
         $(".mute, .unmute").toggle();
     })
 
+    /* Reset Option animations. */
+    $(".reset").click(function(){
+        $(this).toggle();
+        $(".options").toggle();
+    })
+
+    $(".no-reset").click(function(){
+        $(".reset").toggle();
+        $(".options").toggle();
+    })
+
 })

@@ -67,7 +67,7 @@ function startTimer() {
 }
 
 // Reset Game function.
-function reset() {
+function resetOk() {
     window.location.reload();
 }
 
