@@ -1,5 +1,5 @@
 // Plays Theme song on load of page. 
-function play() {
+function playTheme() {
     var audio = document.getElementById("theme");
     audio.play();
 }

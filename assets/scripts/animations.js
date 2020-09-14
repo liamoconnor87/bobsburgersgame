@@ -34,7 +34,7 @@ $(document).ready(function(){
 
     /* Start game animation. */
     $(".play").click(function(){
-        play();
+        playTheme();
         $(".start-container").fadeOut(500);
     })
 
