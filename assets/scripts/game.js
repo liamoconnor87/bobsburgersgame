@@ -55,6 +55,7 @@ function flipCard() {
             secondCard.removeEventListener('click', flipCard);
 
             resetBoard()
+            playLinda()
             
         } else {
 

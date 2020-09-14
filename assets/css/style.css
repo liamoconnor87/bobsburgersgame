@@ -69,9 +69,7 @@ body {
 
 .blue-yes, .red-no{
     padding: 0 4px 0 4px;
-    border: solid rgb(255, 255, 255) 3px;
-    border-top: rgb(0, 0, 0);
-    border-bottom: rgb(0, 0, 0);
+    border: solid rgb(0, 0, 0) 3px;
     background-color: rgb(255, 240, 0);
 }
 
