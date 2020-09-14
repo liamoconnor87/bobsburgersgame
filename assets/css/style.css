@@ -390,7 +390,7 @@ body {
 @media screen and (min-height: 1000px) {
 
     .title {
-        max-width: 780px;
+        width: 780px;
     }
 
     .game-container {
