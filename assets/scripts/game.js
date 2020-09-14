@@ -58,10 +58,10 @@ function resetBoard() {
 }
 
 // Flip counter.
-i = 0;
+;let combos = 0;
 
 function count() {
-    $(".count").text(++i);
+    $(".count").text(++combos);
 }
 
 //card shuffle
