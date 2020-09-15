@@ -63,6 +63,7 @@ $(document).ready(function(){
     $(".no-reset").click(function(){
         $(".reset").toggle();
         $(".options").toggle();
+        playLouise();
     })
 
 })
