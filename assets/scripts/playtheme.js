@@ -8,7 +8,7 @@ function playTheme() {
 function playComplete() {
     theme.volume = 0.2;
     bob.volume = 0.2;
-    linda.volume = 0.2;
+    linda.volume = 0;
     tina.volume = 0.2;
     gene.volume = 0.2;
     louise.volume = 0.2;
@@ -77,6 +77,7 @@ function playTina() {
 }
 
 function playGene() {
+    gene.volume = 0.3;
     var audio = document.getElementById("genesound");
     audio.play();
 }
