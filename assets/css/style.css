@@ -277,7 +277,7 @@ body {
 }
 
 .score-board {
-    width: 90%;
+    
     text-align: center;
     margin: 75px auto auto auto;
     display: flex;
@@ -294,12 +294,17 @@ body {
     display: block;
     margin: auto;
     text-align: center;
-    width: 160px;
+    width: 120px;
     background-color: rgb(255, 240, 0);
     border: solid black 3px;
     margin-top: 3px;
     cursor: pointer;
     transform: scale(1);
+}
+
+.next-option {
+    display: flex;
+    flex-direction: row;
 }
 
 /* Click animation - Play again button */
