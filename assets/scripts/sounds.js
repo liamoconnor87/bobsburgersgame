@@ -2,6 +2,7 @@
 function playTheme() {
 
     var audio = document.getElementById("theme");
+    
     audio.play();
 
 }
