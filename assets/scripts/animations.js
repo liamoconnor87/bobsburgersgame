@@ -100,33 +100,48 @@ $(document).ready(function(){
     $(".lvl-two").click(function(){
 
         $(".loadout").fadeIn(1000);
+
         setTimeout(levelTwo, 401);
 
+        // Function to take user to next level.
         function levelTwo() {
-  			window.location.href = "level_two.html";
-  		}
+
+            window.location.href = "level_two.html";
+              
+        }
+          
     })
     
     // Triggers when user selects next level - Level 3.
     $(".lvl-three").click(function(){
 
         $(".loadout").fadeIn(1000);
+
         setTimeout(levelThree, 401);
 
+        // Function to take user to next level.
         function levelThree() {
-  			window.location.href = "level_three.html";
-  		}
+
+            window.location.href = "level_three.html";
+              
+        }
+    
     })
     
     // Triggers when user selects to back to beginning - Level 1.
-    $(".lvl-three").click(function(){
+    $(".lvl-one").click(function(){
 
         $(".loadout").fadeIn(1000);
+
         setTimeout(levelOne, 401);
 
+        // Function to take user to next level.
         function levelOne() {
-  			window.location.href = "index.html";
-  		}
+
+            window.location.href = "index.html";
+              
+        }
+
 	})
 
 })
