@@ -50,7 +50,7 @@ $(document).ready(function(){
 
 
     // Play again animation.
-    $(".again").click(function(){
+    $(".reload").click(function(){
 
         $(".loadout").fadeIn(1000);
 
@@ -95,5 +95,38 @@ $(document).ready(function(){
         playLouise();
 
     })
+
+    // Triggers when user selects next level - Level 2.
+    $(".lvl-two").click(function(){
+
+        $(".loadout").fadeIn(1000);
+        setTimeout(levelTwo, 401);
+
+        function levelTwo() {
+  			window.location.href = "level_two.html";
+  		}
+    })
+    
+    // Triggers when user selects next level - Level 3.
+    $(".lvl-three").click(function(){
+
+        $(".loadout").fadeIn(1000);
+        setTimeout(levelThree, 401);
+
+        function levelThree() {
+  			window.location.href = "level_three.html";
+  		}
+    })
+    
+    // Triggers when user selects to back to beginning - Level 1.
+    $(".lvl-three").click(function(){
+
+        $(".loadout").fadeIn(1000);
+        setTimeout(levelOne, 401);
+
+        function levelOne() {
+  			window.location.href = "index.html";
+  		}
+	})
 
 })
