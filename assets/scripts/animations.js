@@ -135,7 +135,7 @@ $(document).ready(function(){
 
         setTimeout(levelOne, 401);
 
-        // Function to take user to next level.
+        // Function to take user to next to beginning.
         function levelOne() {
 
             window.location.href = "index.html";
