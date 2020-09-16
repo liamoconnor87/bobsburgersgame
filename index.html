@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/fd5b45d410.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-	<title>Bob's Burgers Memory Game</title>
+    <title>Bob's Burgers Memory Game</title>
 </head>
 <body class="restaurant-bg">
 
@@ -23,8 +23,8 @@
 
     <!-- Load animation -->
     <div class="load">
-		<img class="burger" src="assets/img/burger.jpg" alt="Burger">
-	</div>
+        <img class="burger" src="assets/img/burger.jpg" alt="Burger">
+    </div>
 
     <!-- Reset Button -->
     <div class="button click reset pointer">
@@ -32,9 +32,7 @@
     </div>
     
     <div class="button options">
-        <h1>Are you sure? --> 
-            <span class="pointer blue-yes" onclick="resetOk()">YES</span> or <span class="no-reset pointer red-no">NO</span>
-        </h1>
+        <h1>Are you sure? --> <span class="pointer blue-yes" onclick="resetOk()">YES</span> or <span class="no-reset pointer red-no">NO</span></h1>
     </div>
 
     <!-- Game Start Modal -->
@@ -64,12 +62,11 @@
                     <br>
                 </p>
 
-                <p class="play click">Flip!</p>
-                
-                
+                <p class="play click">Flip!</p> 
             </div>
 
         </div>
+
     </div>
 
     <!-- Game complete Modal -->
@@ -80,6 +77,7 @@
         <div class="game-complete">
         
             <div class="complete-box">
+
                 <div class="score-board">
                 
                     <div class="final-display">
@@ -93,125 +91,131 @@
                 </div>
 
                 <div class="next-option">
+
                     <div class="again final-display">Play again?</div>
+
                     <div class="again final-display">Next Level</div>
+
                 </div>
                 
             </div>
+
         </div>
+
     </div>
 
-	<!-- Title and Counter -->
-	<section class="title">
+    <!-- Title and Counter -->
+    <section class="title">
 
-		<img src="assets/img/bobs_logo.jpg"  alt="Bob's Burgers Memory Game" class="logo">
+        <img src="assets/img/bobs_logo.jpg"  alt="Bob's Burgers Memory Game" class="logo">
 
-		<div class="watch-container">
-            <div class="current-score">Time : <span id="display">00:00:00</span></div>
-            <div class="current-score">Combinations : <span class="count">0</span></div>
+        <div class="watch-container">
+
+            <div class="current-score">
+                Time : <span id="display">00:00:00</span>
+            </div>
+
+            <div class="current-score">
+                Combinations : <span class="count">0</span>
+            </div>
+
         </div>
 
-	</section>
+    </section>
 
-	<!-- Memory Game -->
-	<section class="game-container">
+    <!-- Memory Game -->
+    <section class="game-container">
 
-		<div class="memory-card" onclick="playGene(); playTheme();" data-name="bob">
-			<div class="front-face bob"></div>
-			<div class="back-face"></div>
-		</div>
+        <div class="memory-card" onclick="playGene(); playTheme();" data-name="bob">
+            <div class="front-face bob"></div>
+            <div class="back-face"></div>
+        </div>
 
-		<div class="memory-card" onclick="playGene(); playTheme();" data-name="bob">
-			<div class="front-face bob"></div>
-			<div class="back-face"></div>
-		</div>
+        <div class="memory-card" onclick="playGene(); playTheme();" data-name="bob">
+            <div class="front-face bob"></div>
+            <div class="back-face"></div>
+        </div>
 
-		<div class="memory-card" onclick="playGene(); playTheme();" data-name="linda">
-			<div class="front-face linda"></div>
-			<div class="back-face"></div>
-		</div>
+        <div class="memory-card" onclick="playGene(); playTheme();" data-name="linda">
+            <div class="front-face linda"></div>
+            <div class="back-face"></div>
+        </div>
 
-		<div class="memory-card" onclick="playGene(); playTheme();" data-name="linda">
-			<div class="front-face linda"></div>
-			<div class="back-face"></div>
-		</div>
+        <div class="memory-card" onclick="playGene(); playTheme();" data-name="linda">
+            <div class="front-face linda"></div>
+            <div class="back-face"></div>
+        </div>
 
-		
-		<div class="memory-card" onclick="playGene(); playTheme();" data-name="tina">
-			<div class="front-face tina"></div>
-			<div class="back-face"></div>
-		</div>
+        <div class="memory-card" onclick="playGene(); playTheme();" data-name="tina">
+            <div class="front-face tina"></div>
+            <div class="back-face"></div>
+        </div>
 
-		<div class="memory-card" onclick="playGene(); playTheme();" data-name="tina">
-			<div class="front-face tina"></div>
-			<div class="back-face"></div>
-		</div>
+        <div class="memory-card" onclick="playGene(); playTheme();" data-name="tina">
+            <div class="front-face tina"></div>
+            <div class="back-face"></div>
+        </div>
 
-		<div class="memory-card" onclick="playGene(); playTheme();" data-name="gene">
-			<div class="front-face gene"></div>
-			<div class="back-face"></div>
-		</div>
+        <div class="memory-card" onclick="playGene(); playTheme();" data-name="gene">
+            <div class="front-face gene"></div>
+            <div class="back-face"></div>
+        </div>
 
-		<div class="memory-card" onclick="playGene(); playTheme();" data-name="gene">
-			<div class="front-face gene"></div>
-			<div class="back-face"></div>
-		</div>
+        <div class="memory-card" onclick="playGene(); playTheme();" data-name="gene">
+            <div class="front-face gene"></div>
+            <div class="back-face"></div>
+        </div>
 
-		<div class="memory-card" onclick="playGene(); playTheme();" data-name="louise">
-			<div class="front-face louise"></div>
-			<div class="back-face"></div>
-		</div>
+        <div class="memory-card" onclick="playGene(); playTheme();" data-name="louise">
+            <div class="front-face louise"></div>
+            <div class="back-face"></div>
+        </div>
 
-		<div class="memory-card" onclick="playGene(); playTheme();" data-name="louise">
-			<div class="front-face louise"></div>
-			<div class="back-face"></div>
-		</div>
+        <div class="memory-card" onclick="playGene(); playTheme();" data-name="louise">
+            <div class="front-face louise"></div>
+            <div class="back-face"></div>
+        </div>
 
-		<div class="memory-card" onclick="playGene(); playTheme();" data-name="teddy">
-			<div class="front-face teddy"></div>
-			<div class="back-face"></div>
-		</div>
+        <div class="memory-card" onclick="playGene(); playTheme();" data-name="teddy">
+            <div class="front-face teddy"></div>
+            <div class="back-face"></div>
+        </div>
 
-		<div class="memory-card" onclick="playGene(); playTheme();" data-name="teddy">
-			<div class="front-face teddy"></div>
-			<div class="back-face"></div>
-		</div>
+        <div class="memory-card" onclick="playGene(); playTheme();" data-name="teddy">
+            <div class="front-face teddy"></div>
+            <div class="back-face"></div>
+        </div>
 
-		<div class="memory-card" onclick="playGene(); playTheme();" data-name="marshmellow">
-			<div class="front-face marshmellow"></div>
-			<div class="back-face"></div>
-		</div>
+        <div class="memory-card" onclick="playGene(); playTheme();" data-name="marshmellow">
+            <div class="front-face marshmellow"></div>
+            <div class="back-face"></div>
+        </div>
 
-		<div class="memory-card" onclick="playGene(); playTheme();" data-name="marshmellow">
-			<div class="front-face marshmellow"></div>
-			<div class="back-face"></div>
-		</div>
+        <div class="memory-card" onclick="playGene(); playTheme();" data-name="marshmellow">
+            <div class="front-face marshmellow"></div>
+            <div class="back-face"></div>
+        </div>
 
-		<div class="memory-card" onclick="playGene(); playTheme();" data-name="dryap">
-			<div class="front-face dryap"></div>
-			<div class="back-face"></div>
-		</div>
+        <div class="memory-card" onclick="playGene(); playTheme();" data-name="dryap">
+            <div class="front-face dryap"></div>
+            <div class="back-face"></div>
+        </div>
 
-		<div class="memory-card" onclick="playGene(); playTheme();" data-name="dryap">
-			<div class="front-face dryap"></div>
-			<div class="back-face"></div>
-		</div>
+        <div class="memory-card" onclick="playGene(); playTheme();" data-name="dryap">
+            <div class="front-face dryap"></div>
+            <div class="back-face"></div>
+        </div>
 
-	</section>
+    </section>
 
     <!-- Theme Song -->
     <audio id="theme" src="https://www.dropbox.com/s/rx2ywjriem2vej8/bob_theme.mp3?raw=1"></audio>
-    <audio id="bobsound" src="https://www.dropbox.com/s/5r0j4m5lj2gaisk/bob.mp3?raw=1"></audio>
     <audio id="lindasound" src="https://www.dropbox.com/s/wbtheo5m6uxr5tk/linda.mp3?raw=1"></audio>
-    <audio id="tinasound" src="https://www.dropbox.com/s/zk1dif608l0ogra/tina.mp3?raw=1"></audio>
     <audio id="genesound" src="https://www.dropbox.com/s/f5bi0mj1pu90pe2/gene.mp3?raw=1"></audio>
     <audio id="louisesound" src="https://www.dropbox.com/s/q261wtp8jzpzvhq/louise.mp3?raw=1"></audio>
-    <audio id="teddysound" src="https://www.dropbox.com/s/no399ixxrzlzhe5/teddy.mp3?raw=1"></audio>
-    <audio id="marshmellowsound" src="https://www.dropbox.com/s/axiyz6huasoi3a4/marshmellow.mp3?raw=1"></audio>
-    <audio id="dryapsound" src="https://www.dropbox.com/s/19kfrpyxj59fa12/dryap.mp3?raw=1"></audio>
     <audio id="alright" src="https://www.dropbox.com/s/2s2yn3lr955e41f/complete.mp3?raw=1"></audio>
     
-
+    <!-- JS Scripts -->
     <script src="assets/scripts/game.js"></script>
     <script src="assets/scripts/timer.js"></script>
     <script src="assets/scripts/animations.js"></script>
