@@ -341,94 +341,6 @@ body {
     border: solid white 3px;
 }
 
-/* Image URL's */
-/* Background images */
-.restaurant-bg {
-    background-image: url("https://www.dropbox.com/s/vdyictqgq0myw7a/bobs_bg2.jpg?raw=1");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-/* Back face of card */
-.back-face {
-    background-image: url("https://www.dropbox.com/s/g4a39sk9s38kafx/burger.jpg?raw=1");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-/* Front face of cards*/
-.bob {
-    background-image: url("https://www.dropbox.com/s/nmbz9mezkmy0mqo/bob_belcher.jpg?raw=1");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.linda {
-    background-image: url("https://www.dropbox.com/s/2ry298w6kobx31u/linda_belcher.jpg?raw=1");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.tina {
-    background-image: url("https://www.dropbox.com/s/y615hry8ee1gdk4/tina_belcher.jpg?raw=1");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.gene {
-    background-image: url("https://www.dropbox.com/s/6ybfh90wa7qbz3h/gene_belcher.jpg?raw=1");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.louise {
-    background-image: url("https://www.dropbox.com/s/i2mc360tnee97uz/louise_belcher.jpg?raw=1");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.teddy {
-    background-image: url("https://www.dropbox.com/s/62ka5yh92se986s/teddy.jpg?raw=1");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.mort {
-    background-image: url("https://www.dropbox.com/s/qabfweaucg2aple/mort.jpg?raw=1");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.wobbles {
-    background-image: url("https://www.dropbox.com/s/6cuqtf4j6ycrvui/m_wobbles.jpg?raw=1");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.marshmellow {
-    background-image: url("https://www.dropbox.com/s/jy35alc6y1f98rn/marshmellow.jpg?raw=1");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.dryap {
-    background-image: url("https://www.dropbox.com/s/iayw0o3b0eba0ub/dr_yap.jpg?raw=1");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
 /* Smart device layouts */
 @media screen and (min-width: 360px) {
 
@@ -628,4 +540,142 @@ body {
         font-size: 20px;
     }
     
+}
+
+/* Image URL's */
+/* Background images */
+.restaurant-bg {
+    background-image: url("https://www.dropbox.com/s/vdyictqgq0myw7a/bobs_bg2.jpg?raw=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Back face of card */
+.back-face {
+    background-image: url("https://www.dropbox.com/s/g4a39sk9s38kafx/burger.jpg?raw=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Front face of cards*/
+.bob {
+    background-image: url("https://www.dropbox.com/s/nmbz9mezkmy0mqo/bob_belcher.jpg?raw=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.linda {
+    background-image: url("https://www.dropbox.com/s/2ry298w6kobx31u/linda_belcher.jpg?raw=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.tina {
+    background-image: url("https://www.dropbox.com/s/y615hry8ee1gdk4/tina_belcher.jpg?raw=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.gene {
+    background-image: url("https://www.dropbox.com/s/6ybfh90wa7qbz3h/gene_belcher.jpg?raw=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.louise {
+    background-image: url("https://www.dropbox.com/s/i2mc360tnee97uz/louise_belcher.jpg?raw=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.teddy {
+    background-image: url("https://www.dropbox.com/s/62ka5yh92se986s/teddy.jpg?raw=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.mort {
+    background-image: url("https://www.dropbox.com/s/qabfweaucg2aple/mort.jpg?raw=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wobbles {
+    background-image: url("https://www.dropbox.com/s/6cuqtf4j6ycrvui/m_wobbles.jpg?raw=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.marshmellow {
+    background-image: url("https://www.dropbox.com/s/jy35alc6y1f98rn/marshmellow.jpg?raw=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.dryap {
+    background-image: url("https://www.dropbox.com/s/iayw0o3b0eba0ub/dr_yap.jpg?raw=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.gayle {
+    background-image: url("https://www.dropbox.com/s/rd5piv4x6oumdm3/gayle.jpg?raw=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hugo {
+    background-image: url("https://www.dropbox.com/s/i3whwy25ah24op7/hugo.jpg?raw=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.gretchen {
+    background-image: url("https://www.dropbox.com/s/lmyd5eewfhw1p2a/gretchen.jpg?raw=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.fischoeder {
+    background-image: url("https://www.dropbox.com/s/imq6o2eqb51pxi6/mr_fischoeder.jpg?raw=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.frond {
+    background-image: url("https://www.dropbox.com/s/334yqr51ot09du6/mr_frond.jpg?raw=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.tammy {
+    background-image: url("https://www.dropbox.com/s/ha7l2mjxpy4unzy/tammy.jpg?raw=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.zeke {
+    background-image: url("https://www.dropbox.com/s/m6dn01ef3ndkp0x/zeke.jpg?raw=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.jimmyjr {
+    background-image: url("https://www.dropbox.com/s/kd3z5d9ytfm1d6v/jimmy_jr.jpg?raw=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
