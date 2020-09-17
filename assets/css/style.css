@@ -119,6 +119,7 @@ body {
 }
 
 /* Memory Game */
+/* Level 1*/
 .game-container {
     width: 320px;
     height: 320px;
@@ -143,6 +144,24 @@ body {
     transform: scale(1);
     transform-style: preserve-3d;
     transition: .5s;
+}
+
+/* Level 2*/
+.game-container.medium {
+    height: 400px;
+}
+
+.memory-card.medium {
+    height: 19%;
+}
+
+/* Level 3 */
+.game-container.large {
+    height: 480px;
+}
+
+.memory-card.large {
+    height: 15.5%;
 }
 
 /*Click on card animation*/
