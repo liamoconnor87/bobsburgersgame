@@ -522,14 +522,18 @@ body {
         width: 680px;
     }
 
+    .title.medium {
+        padding-bottom: 2px;
+    }
+
     .game-container {
         width: 550px;
         height: 550px;
     }
 
     .game-container.medium {
-        width: 540px;
-        height: 675px;
+        width: 525px;
+        height: 656px;
     }
 
     .memory-card.medium {
@@ -553,9 +557,18 @@ body {
         width: 680px;
     }
 
+    .title.medium {
+        padding-bottom: 20px;
+    }
+
     .game-container {
         width: 750px;
         height: 750px;
+    }
+
+    .game-container.medium {
+        width: 700px;
+        height: 875px;
     }
 
     .current-score {
