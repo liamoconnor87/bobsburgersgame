@@ -13,7 +13,8 @@ function playComplete() {
     theme.volume = 0.2;
     linda.volume = 0;
     gene.volume = 0.2;
-    louise.volume = 0.2;
+    tina.volume = 0.2;
+    bruce.volume = 0.2;
 
     var audio = document.getElementById("alright");
 
@@ -27,6 +28,10 @@ var complete = document.getElementById("alright");
 var linda = document.getElementById("lindasound");
 var gene = document.getElementById("genesound");
 var louise = document.getElementById("louisesound");
+var tina = document.getElementById("tinasound");
+var bruce = document.getElementById("brucesound");
+var bob = document.getElementById("bobsound");
+var teddy = document.getElementById("teddysound");
 
 // Mutes all sounds.
 function enableMute() {
@@ -36,17 +41,25 @@ function enableMute() {
     linda.muted = true;
     gene.muted = true;
     louise.muted = true;
+    tina.muted = true;
+    bruce.muted = true;
+    bob.muted = true;
+    teddy.muted = true;
 
 }
 
 // Unmutes all sounds.
 function disableMute() { 
 
-  theme.muted = false;
-  complete.muted = false;
-  linda.muted = false;
-  gene.muted = false;
-  louise.muted = false;
+    theme.muted = false;
+    complete.muted = false;
+    linda.muted = false;
+    gene.muted = false;
+    louise.muted = false;
+    tina.muted = false;
+    bruce.muted = false;
+    bob.muted = false;
+    teddy.muted = false;
 
 }
 
@@ -65,6 +78,22 @@ function playGene() {
     gene.volume = 0.3;
 
     var audio = document.getElementById("genesound");
+
+    audio.play();
+
+}
+
+function playTina() {
+
+    var audio = document.getElementById("tinasound");
+
+    audio.play();
+
+}
+
+function playBruce() {
+
+    var audio = document.getElementById("brucesound");
 
     audio.play();
 
