@@ -484,9 +484,19 @@ body {
         width: 638px;
     }
 
+    .game-container.large {
+        width: 600px;
+        height: 400px;
+    }
+
     .memory-card.medium {
         height: 24%;
         width: 19%;
+    }
+
+    .memory-card.large {
+        height: 24%;
+        width: 15.5%;
     }
 
     .back-face, .front-face {
@@ -526,6 +536,10 @@ body {
         padding-bottom: 2px;
     }
 
+    .title.large {
+        padding-bottom: 0px;
+    }
+
     .game-container {
         width: 550px;
         height: 550px;
@@ -536,9 +550,19 @@ body {
         height: 656px;
     }
 
+    .game-container.large {
+        height: 645px;
+        width: 430px;
+    }
+
     .memory-card.medium {
         height: 19%;
         width: 24%;
+    }
+
+    .memory-card.large {
+        width: 15.5%;
+        height: 24%;
     }
 
     .current-score {
@@ -561,6 +585,10 @@ body {
         padding-bottom: 20px;
     }
 
+    .title.large {
+        padding-bottom: 20px;
+    }
+
     .game-container {
         width: 750px;
         height: 750px;
@@ -569,6 +597,11 @@ body {
     .game-container.medium {
         width: 700px;
         height: 875px;
+    }
+
+    .game-container.large {
+        height: 900px;
+        width: 600px;
     }
 
     .current-score {
