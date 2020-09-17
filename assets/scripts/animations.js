@@ -91,8 +91,29 @@ $(document).ready(function(){
 
         $(".options").toggle();
 
+    })
+
+    // Triggers function when user clicks 'NO' on index page.
+    $(".play-louise").click(function(){
+        
         // Triggers function to play sound.
         playLouise();
+
+    })
+
+    // Triggers function when user clicks 'NO' on Level 2 page.
+    $(".play-teddy").click(function(){
+        
+        // Triggers function to play sound.
+        playTeddy();
+
+    })
+
+    // Triggers function when user clicks 'NO' on Level 3 page.
+    $(".play-bob").click(function(){
+        
+        // Triggers function to play sound.
+        playBob();
 
     })
 
