@@ -78,3 +78,19 @@ function playLouise() {
     audio.play();
 
 }
+
+function playTeddy() {
+
+    var audio = document.getElementById("teddysound");
+
+    audio.play();
+
+}
+
+function playBob() {
+
+    var audio = document.getElementById("bobsound");
+
+    audio.play();
+
+}
