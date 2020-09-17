@@ -480,8 +480,13 @@ body {
     }
 
     .game-container.medium{
-        width: 510px;
-        height: 638px;
+        height: 510px;
+        width: 638px;
+    }
+
+    .memory-card.medium {
+        height: 24%;
+        width: 19%;
     }
 
     .back-face, .front-face {
@@ -525,6 +530,11 @@ body {
     .game-container.medium {
         width: 540px;
         height: 675px;
+    }
+
+    .memory-card.medium {
+        height: 19%;
+        width: 24%;
     }
 
     .current-score {
