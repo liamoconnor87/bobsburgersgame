@@ -416,6 +416,14 @@ body {
 }
 
 /* Smart device layouts */
+@media screen and (min-width: 360px) {
+
+    .game-container.large {
+        height: 390px;
+        width: 260px;
+    }
+}
+
 @media screen and (min-width: 400px) {
 
     .current-score {
@@ -430,6 +438,11 @@ body {
     .game-container.medium {
         height: 450px;
         width: 360px;
+    }
+
+    .game-container.large {
+        height: 450px;
+        width: 300px;
     }
 
     .complete-box {
