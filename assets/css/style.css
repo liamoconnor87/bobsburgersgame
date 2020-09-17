@@ -148,7 +148,8 @@ body {
 
 /* Level 2*/
 .game-container.medium {
-    height: 400px;
+    height: 350px;
+    width: 280px;
 }
 
 .memory-card.medium {
@@ -420,6 +421,11 @@ body {
         height: 390px;
     }
 
+    .game-container.medium {
+        height: 450px;
+        width: 360px;
+    }
+
     .complete-box {
         height: 210px;
         width: 350px;
@@ -452,6 +458,11 @@ body {
     .game-container {
         width: 430px;
         height: 430px;
+    }
+
+    .game-container.medium{
+        width: 510px;
+        height: 638px;
     }
 
     .back-face, .front-face {
@@ -490,6 +501,11 @@ body {
     .game-container {
         width: 550px;
         height: 550px;
+    }
+
+    .game-container.medium {
+        width: 540px;
+        height: 675px;
     }
 
     .current-score {
