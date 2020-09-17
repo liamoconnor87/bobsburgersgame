@@ -93,6 +93,11 @@ body {
     z-index: 1;
 }
 
+/* Title Level 3 */
+.title.large {
+    padding-bottom: 2px;
+}
+
 .logo {
     display: block;
     width: 98%;
@@ -158,7 +163,8 @@ body {
 
 /* Level 3 */
 .game-container.large {
-    height: 480px;
+    height: 360px;
+    width: 240px;
 }
 
 .memory-card.large {
