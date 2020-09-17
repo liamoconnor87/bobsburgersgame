@@ -401,6 +401,20 @@ body {
     background-position: center;
 }
 
+.mort {
+    background-image: url("https://www.dropbox.com/s/qabfweaucg2aple/mort.jpg?raw=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wobbles {
+    background-image: url("https://www.dropbox.com/s/6cuqtf4j6ycrvui/m_wobbles.jpg?raw=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .marshmellow {
     background-image: url("https://www.dropbox.com/s/jy35alc6y1f98rn/marshmellow.jpg?raw=1");
     background-repeat: no-repeat;
