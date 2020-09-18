@@ -60,7 +60,7 @@ function flipCard() {
         secondCard = this;
         
         //Function triggers - Counts when two flips have been made.
-        count()
+        count();
 
         // Condition - Do cards match?
         if (firstCard.dataset.name === secondCard.dataset.name) {
@@ -70,10 +70,10 @@ function flipCard() {
             secondCard.removeEventListener('click', flipCard);
 
             // Triggers function to reset board values.
-            resetBoard()
+            resetBoard();
 
             // Triggers function to play sound. 
-            playLinda()
+            playLinda();
             
         } else {
 
@@ -86,7 +86,7 @@ function flipCard() {
             secondCard.classList.remove('flip');
 
             // Triggers function to reset board values.
-            resetBoard()
+            resetBoard();
             
             }, 1000);
 

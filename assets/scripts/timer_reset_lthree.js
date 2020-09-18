@@ -88,7 +88,7 @@ function startTimer() {
 }
 
 // Stops timer value defined.
-let matchedCard = document.getElementsByClassName("memory-card flip")
+let matchedCard = document.getElementsByClassName("memory-card flip");
 
 // Function to stop timer when game is compete. 
 function stopTimer() {
@@ -116,7 +116,7 @@ $(".memory-card").click(function(){
     // Triggers function to stop timer. 
     stopTimer();
 
-})
+});
 
 // Triggers function for Modal Game Complete.
 function gameComplete() {
@@ -125,7 +125,7 @@ function gameComplete() {
 
     $(".complete-box").delay(1200).animate({
         opacity: '1',
-    }, 1000)
+    }, 1000);
 
 }
 
