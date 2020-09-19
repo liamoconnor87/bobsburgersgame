@@ -93,9 +93,14 @@ body {
     z-index: 1;
 }
 
+/* Title Level 2 */
+.title.medium {
+        padding-bottom: 2px;
+}
+
 /* Title Level 3 */
 .title.large {
-    padding-bottom: 2px;
+    padding-bottom: 10px;
 }
 
 .logo {
@@ -407,8 +412,8 @@ body {
     }
 
     .game-container.medium{
-        height: 510px;
-        width: 638px;
+        height: 500px;
+        width: 625px;
     }
 
     .game-container.large {
@@ -457,10 +462,6 @@ body {
 
     .watch-container {
         width: 680px;
-    }
-
-    .title.medium {
-        padding-bottom: 2px;
     }
 
     .title.large {
