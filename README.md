@@ -125,8 +125,8 @@ The Welcome Modal appears at the beginning of each level for the user.
 
 - Appears the same way and lets the user know they are now on Level 2.
 
-*Level Three*
-----
+**Level Three**
+
 
 - Again, appears the same way, letting the user know it is Level 3. 
 
