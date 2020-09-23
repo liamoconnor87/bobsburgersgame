@@ -13,10 +13,13 @@ This testing applies to these User Stories -
 Steps taken - 
 
 >Go to the Bob's Burgers Memory Game website -https://liamoconnor87.github.io/bobsburgersgame/.
+
 >Wait for the loading screen to finish. 
+
 >Observe that the Welcome Modal has appeared. 
 
 >Repeat for level 2 - https://liamoconnor87.github.io/bobsburgersgame/level_two.html.
+
 >Repeat for level 3 - https://liamoconnor87.github.io/bobsburgersgame/level_three.html.
 
 ![image](README_files/images/loadingscreen.png)
@@ -57,6 +60,7 @@ This testing also applies to these User Stories -
 Steps taken - 
 
 >Click on the 'FLIP' button.
+
 >Listen for music to start. 
 
 
@@ -67,39 +71,48 @@ Steps taken -
 Steps taken - 
 
 >Click on a card.
+
 >Observe the flip animation in action to reveal the front face. 
 
 >Repeat for level 2 - https://liamoconnor87.github.io/bobsburgersgame/level_two.html.
+
 >Repeat for level 3 - https://liamoconnor87.github.io/bobsburgersgame/level_three.html.
 
 
 **As a User, when I play the game I would like a timer displayed so I know how long its taking me to complete the game.**
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------
 - Timer is clearly displayed between the header of the page and the card set for the User to view.
 - Upon first click / card flip the timer should start and display in real time.  
 
 Steps taken - 
 
 >Click on a card.
+
 >Observe the Timer starts.
 
 >Repeat for level 2 - https://liamoconnor87.github.io/bobsburgersgame/level_two.html.
+
 >Repeat for level 3 - https://liamoconnor87.github.io/bobsburgersgame/level_three.html.
 
 ![image](README_files/images/timerstarts.png)
 
 
-**As a User, when I play the game I would like a counter displayed so I know how many attempts it takes me to complete the game.**---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**As a User, when I play the game I would like a counter displayed so I know how many attempts it takes me to complete the game.**
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 - Counter is clearly displayed between the header of the page and the card set. Mirrored to the Timer display. 
 - Upon two cards being flipped the counter will count that as one combination and display it in real time as the User tries to complete the game. 
 
 Steps taken - 
 
 >Click on two cards to create a combination. 
+
 >Observer that the counter increases by one. 
+
 >Repreat process to observe it increase by one again.
 
+
 >Repeat for level 2 - https://liamoconnor87.github.io/bobsburgersgame/level_two.html.
+
 >Repeat for level 3 - https://liamoconnor87.github.io/bobsburgersgame/level_three.html.
 
 ![image](README_files/images/counter.png)
@@ -112,18 +125,25 @@ Steps taken -
 Steps taken - 
 
 >Click card on Level One - https://liamoconnor87.github.io/bobsburgersgame/index.html
+
 >Listen for Gene 'fart' sound to be played.
+
 >Click on Tina Belcher card. 
+
 >Listen for Tina sound to be played.
 
 Level Two - https://liamoconnor87.github.io/bobsburgersgame/level_two.html.
 >Click on card.
+
 >Listen for Tina sound to be played. 
 
 Level Three - https://liamoconnor87.github.io/bobsburgersgame/level_three.html.
 >Click on card.
+
 >Listen for Bruce 'quack' sound to be played.
+
 >Click on Andy or Ollie card.
+
 >Listen for Tina sound to be played. 
 
 
@@ -134,9 +154,11 @@ Level Three - https://liamoconnor87.github.io/bobsburgersgame/level_three.html.
 Steps taken - 
 
 >Play game by clicking on cards.
+
 >When a pair of cards has been mactched, listen for Linda 'Alright!' sound to be played. 
 
 >Repeat for level 2 - https://liamoconnor87.github.io/bobsburgersgame/level_two.html.
+
 >Repeat for level 3 - https://liamoconnor87.github.io/bobsburgersgame/level_three.html.
 
 
@@ -149,9 +171,11 @@ Steps taken -
 Steps taken - 
 
 >Play game to completion. 
+
 >Listen for Game Complete sound - 'Alright!... alright!' to be played. 
 
 >Repeat for level 2 - https://liamoconnor87.github.io/bobsburgersgame/level_two.html.
+
 >Repeat for level 3 - https://liamoconnor87.github.io/bobsburgersgame/level_three.html.
 
 
@@ -162,9 +186,11 @@ Steps taken -
 
 Steps taken - 
 >Play game to completion. 
+
 >Observe the Game Complete Modal appears with score board. 
 
 >Repeat for level 2 - https://liamoconnor87.github.io/bobsburgersgame/level_two.html.
+
 >Repeat for level 3 - https://liamoconnor87.github.io/bobsburgersgame/level_three.html.
 
 ![image](README_files/images/completemod.png)
@@ -180,10 +206,13 @@ Steps taken -
 Steps taken - 
 
 >Move mouse over the 'Play Agian' button and observe it changes colour.
+
 >Click on the 'FLIP' button to observe it changes size.
+
 >Observe that the Modal closes.  
 
 >Repeat for level 2 - https://liamoconnor87.github.io/bobsburgersgame/level_two.html.
+
 >Repeat for level 3 - https://liamoconnor87.github.io/bobsburgersgame/level_three.html.
 
 ![image](README_files/images/playagain.png)
@@ -199,7 +228,9 @@ Steps taken -
 Steps taken - 
 
 >Move mouse over the 'Next Level' button and observe it changes colour.
+
 >Click on the 'Next Level' button to observe it changes size.
+
 >Observe that the game takes you to the next level.   
 
 >Repeat for level 2 - https://liamoconnor87.github.io/bobsburgersgame/level_two.html.
@@ -218,7 +249,9 @@ Steps taken -
 Steps taken - 
 
 >Move mouse over the 'Home' button and observe it changes colour.
+
 >Click on the 'Home' button to observe it changes size.
+
 >Observe that the game takes you to the beginning. - https://liamoconnor87.github.io/bobsburgersgame/
 
 ![image](README_files/images/homebut.png)
@@ -234,11 +267,15 @@ Steps taken -
 Steps taken - 
 
 >Play game.
+
 >Click the mute button.
+
 >Observe that the button chnages appearance to signify that all sounds are muted. 
+
 >Listen for all sounds have been muted. 
 
 >Repeat for level 2 - https://liamoconnor87.github.io/bobsburgersgame/level_two.html.
+
 >Repeat for level 3 - https://liamoconnor87.github.io/bobsburgersgame/level_three.html.
 
 ![image](README_files/images/unmuted.png)
@@ -262,12 +299,19 @@ This test will also include User Story -
 
 Steps taken - 
 >Click on the Reset Button.
+
 >Observe the button changes size.
+
 >Observe that the button changes on click to 'ARE YOU SURE? --> YES or NO'
+
 >Observe that when the mouse hovers over 'YES' it changes colour and underlines.
+
 >Observe that when the mouse hovers over 'NO' it changes colour and underlines. 
+
 >Click on 'NO' to observe the Reset Button defaults to original button. 
+
 >Listen for sound to play.
+
 >Click on 'YES' to observe the game resets the current level. 
 
 ![image](README_files/images/resetbut.png)
@@ -286,50 +330,64 @@ The website also works well with smart devices.
 ## Desktop View's ##
 
 >**Level One**
-![image](README_files/images/level_onepage.png)
+
+>![image](README_files/images/level_onepage.png)
 
 >**Level Two**
-![image](README_files/images/level_twopage.png)
+
+>![image](README_files/images/level_twopage.png)
 
 >**Level Three**
-![image](README_files/images/level_threepage.png)
+
+>![image](README_files/images/level_threepage.png)
 
 ## Ipad Pro View's ##
 
 >**Level One**
-![image](README_files/images/indexipro.png)
+
+>![image](README_files/images/indexipro.png)
 
 >**Level Two**
-![image](README_files/images/level_twoipro.png)
+
+>![image](README_files/images/level_twoipro.png)
 
 >**Level Three**
-![image](README_files/images/level_threeipro.png)
+
+>![image](README_files/images/level_threeipro.png)
 
 ## Ipad View's ##
 
 >**Level One**
-![image](README_files/images/indexipad.png)
+
+>![image](README_files/images/indexipad.png)
 
 >**Level Two**
-![image](README_files/images/level_twoipad.png)
+
+>![image](README_files/images/level_twoipad.png)
 
 >**Level Three**
-![image](README_files/images/level_threeipad.png)
+
+>![image](README_files/images/level_threeipad.png)
 
 ## Smart Phone View's ##
 
 >**Level One**
-![image](README_files/images/indexsmart.png)
+
+>![image](README_files/images/indexsmart.png)
 
 >**Level Two**
-![image](README_files/images/level_twosmart.png)
+
+>![image](README_files/images/level_twosmart.png)
 
 >**Level Three**
-![image](README_files/images/level_threesmart.png)
+
+>![image](README_files/images/level_threesmart.png)
 
 **Bugs and Problems**
-One notable bug I came across was the flip animation to show the front face of the card was not working on iPhones. 
-I fixed this problem by using webkits.
+
+- One notable bug I came across was the flip animation to show the front face of the card was not working on iPhones. 
+- I fixed this problem by using webkits.
+
 ![image](README_files/images/webkitpersp.png)
 ![image](README_files/images/webkitbf.png)
 
@@ -340,56 +398,93 @@ Automated checks
 I used the W3C's Validators to check my HTML and CSS code. I did this three ways, here are the steps I took.
 
 >**HTML**
+
 >![image](README_files/images/html-checker.png)
+
 >**CSS**
+
 >![image](README_files/images/css-checker.png)
 
 1. **Using the websites URL address to check the HTML code**
 
 >1. Go to https://validator.w3.org and select the URI tab. 
+
 >2. Enter https://liamoconnor87.github.io/bobsburgersgame/index.html into the address bar and click **Check**.
+
 >3. Confirm that no errors or warnings show. 
+
 ![image](README_files/images/urlindex.png)
+
 Do the same for each page. 
+
 >4. Enter https://liamoconnor87.github.io/bobsburgersgame/level_two.html into the address bar and click **Check**.
+
 >5. Confirm that no errors or warnings show.
+
 ![image](README_files/images/urllvl2.png)
+
 >6. Enter https://liamoconnor87.github.io/bobsburgersgame/level_three.html into the address bar and click **Check**.
+
 >7. Confirm that no errors or warnings show.
+
 ![image](README_files/images/urllvl3.png)
 
 2. **Using the websites URL address to check the CSS code**
 
 >1. Go to https://jigsaw.w3.org/css-validator/ and select the URI tab. 
+
 >2. Enter https://liamoconnor87.github.io/bobsburgersgame/ into the address bar and click **Check**.
+
 >3. Confirm that no errors show - 2 notable warnings show for webkits used to make the animation work on apple devices. 
+
 ![image](README_files/images/urlcss.png)
 
 I used JShint to validate my Javascript code. Here are the steps I took. 
 
-**JS**
-![image](README_files/images/jshint-checker.png)
+>**JS**
+
+>![image](README_files/images/jshint-checker.png)
 
 3. **Input directly to check JS code.**
 
 >1. Go to the repository - https://github.com/liamoconnor87/bobsburgersgame
+
 >2. Click on the **assets** link.
+
 ![image](README_files/images/assets-folder.png)
+
 >3. Click on the **scripts** link. 
+
 ![image](README_files/images/scripts-folder.png)
+
 >4. Click on the **animations.js** file link. This should take you to animations.js page displaying the code. From here you can highlight all the code and copy it. 
+
 ![image](README_files/images/js-code.png)
+
 >5. Once copied, go to https://jshint.com.
+
 >6. Paste the code from the animations.css file in to where instructed.
+
 >7. Validation works automatically, confirm no errors.
+
 ![image](README_files/images/anijs-input.png)
+
 >8. Repeat process for **game.js** file.
+
 ![image](README_files/images/gamejs-input.png)
+
 >9. Repeat process for **sounds.js** file.
+
 ![image](README_files/images/sndjs-input.png)
+
 >10. Repeat process for **timer_reset.js** file.
+
 ![image](README_files/images/timesetjs-input.png)
+
 >11. Repeat process for **timer_reset_ltwo.js** file.
+
 ![image](README_files/images/timesetjs2-input.png)
+
 >12. Repeat process for **timer_reset_lthree.js** file.
+
 ![image](README_files/images/timesetjs3-input.png)

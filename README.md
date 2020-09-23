@@ -76,74 +76,101 @@ I used Adobe Photoshop to create wireframes in desktop, tablet and phone view.
 Features
 ======
 
-Existing Features
+**Existing Features**
 ----------------------
-#[Level One](https://liamoconnor87.github.io/bobsburgersgame/index.html)#
+[Level One](https://liamoconnor87.github.io/bobsburgersgame/index.html)
 
-#[Level Two](https://liamoconnor87.github.io/bobsburgersgame/level_two.html)#
+[Level Two](https://liamoconnor87.github.io/bobsburgersgame/level_two.html)
 
-#[Level Three](https://liamoconnor87.github.io/bobsburgersgame/level_three.html)#
+[Level Three](https://liamoconnor87.github.io/bobsburgersgame/level_three.html)
 
 All 3 pages are essentially the same design and layout. As the level of difficulty increases the layout is slightly tweaked to cater for that increase. 
 
-##Game Board##
+Game Board
+-
+
 Each level has the title of the game at the top, with a mute button and reset button either side. The timer and combination counter placed under the title followed by the game board underneath that. 
 When the user clicks on a card. The card will animate to flip over to reveal the front face of the card. If the two cards the User has flipped do not match. The cards will animate to flip back over. The User can only flip two at a time. They are prevented from flipping more then two over a time or untill the cards that dont match flip back or if the two cards match they stay facing up.
 
-#Timer and Combinations Counter#
+Timer and Combinations Counter
+---
+
 Timer starts on the first card flip and ends when the User has completed the game. The combination counter records how many combinations the User has used to complete the game. Not the amount of single card flips. 
 
-#Style and Theme#
+Style and Theme
+--
+
 I used the font, Permanent Marker as I felt the handwirtten style suited the hand drawn style of the Bob's Burgers theme. I used a colour scheme of Yellow and Red specifically that of which the TV Show uses, aswell as a Blue that I felt suited these two colours. I also used White and Black as a way to seperate content easily for the User.
 
 The background of the game is of the Bob's Burgers Restaurant and the game title also uses an almost exact font of the TV Show. To keep this continuaity I also use the hand drawn burger as the backface of the cards, as well as the inital loading screen when the user visits the site. All front face's of the cards are the characters from the TV Show. All this is conistent through out the game. And similar designs and combinations of these elements are added to the Welcome Modal and Game Complete Modal.
 
 Layout also responsive to different size screens and smart devices. 
 
-##Loading Screen##
+Loading Screen
+--
+
 The Users first experience when entering the game site and each level is of a animated loading screen of a Burger.  Burger fades in and out of visibilty. 
 ![image](README_files/images/loadingscreen.png)
 
-##Welcome Modal##
+Welcome Modal
+--
+
 The Welcome Modal appears at the beginning of each level for the user. 
-#Level One#
-Welcomes you to the game and explains the rules of the game to the user. 
-#Level Two#
-Appears the same way and lets the user know they are now on Level 2.
-#Level Three#
-Again, appears the same way, letting the user know it is Level 3. 
+
+**Level One**
+
+- Welcomes you to the game and explains the rules of the game to the user. 
+
+**Level Two**
+
+- Appears the same way and lets the user know they are now on Level 2.
+
+*Level Three*
+----
+
+- Again, appears the same way, letting the user know it is Level 3. 
 
 All Welcome Modals have a button labelled 'FLIP'. Which the user clicks to close the Modal and start the game. 
 
-##Reset Button##
+Reset Button
+----
+
 Appears on every level and allows the User at any point durring the game to reset the current game they are playing. When the User selects Reset. They are asked if 'they are sure' followed by two options, 'YES or 'NO'. 
+
 If the User selects Yes. The game is reloaded to the beginning of that level.  If the User selects No. The inital Reset Button reappears and the User can continue the game. 
+
 Clicking the Reset Button durring the game doesnt stop you from playing. As its placed out of center view. The User can continue to play with the 'Are you sure?' option visible. 
 
-##Mute/ Unmute Button##
+Mute/ Unmute Button
+---
+
 Is mirrored in display and layout to the Reset Button and allows the User to mute all the sounds of the Game. When the User clicks on the Mute button all sound is muted as well as the button changing in appearance to represent that sound has been muted. When the User clicks the button again. It Unmutes the sound and reverts to its inital style of button. 
 
-##Game Complete Modal##
+Game Complete Modal
+------------------------
+
 The Game Complete Modal appears once the user has completed the level.  It consists of - 
->A congratulations message.
->The User's score, consisting of the time it took and the number of combinations to complete the game. 
->'Play Again?' button to play the same level again. This works the same way as the reset button. 
->'Next Level' button, so the User can progress to the next level.  
+- A congratulations message.
+- The User's score, consisting of the time it took and the number of combinations to complete the game. 
+- 'Play Again?' button to play the same level again. This works the same way as the reset button. 
+- Next Level' button, so the User can progress to the next level.  
 
 On Level Three, the 'Next Level' button is replaced with a 'Home' button that takes you back to the beginning, Level One. 
 
-##Sounds##
+Sounds
+----------------
+
 Sounds are played within the game when the following actons are taken by the User. 
->Background music is played on every level once the User has selected 'FLIP' on the Welcome Modal. If the music ends and the user is still playing. This music can start again when the user clicks a card to be flipped. 
->A short sound is played when the User flips a card over.
->A sound is played when the User gets two Cards that match.  
->A sound is played when the User completes the game. 
->A sound is also played when the user selects 'NO' on the Reset button options.
+- Background music is played on every level once the User has selected 'FLIP' on the Welcome Modal. If the music ends and the user is still playing. This music can start again when the user clicks a card to be flipped. 
+- A short sound is played when the User flips a card over.
+- A sound is played when the User gets two Cards that match.  
+- A sound is played when the User completes the game. 
+- A sound is also played when the user selects 'NO' on the Reset button options.
 
 Features To Be Implmented
------------------------------------
->Different sounds to play on certain card combinations. For example when a User matches two card of Bob Belcher it would play a sound bite specific to that character, like a catch phrase.
->I would have also liked to have implemented the use of a cache storage for the Users previous scores and display them at the end of each level. 
+---------------------------------------
+- Different sounds to play on certain card combinations. For example when a User matches two card of Bob Belcher it would play a sound bite specific to that character, like a catch phrase.
+- I would have also liked to have implemented the use of a cache storage for the Users previous scores and display them at the end of each level. 
 
 
 Technologies Used
