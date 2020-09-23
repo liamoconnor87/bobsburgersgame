@@ -41,9 +41,9 @@ Steps taken  -
 >Click on the 'FLIP' button to observe it changes size.
 >Observe that the Modal closes.  
 
-![image](README_files/images/flipbut1.png)
-![image](README_files/images/flipbut2.png)
-![image](README_files/images/flipbut3.png)
+![image](README_files/images/butflip1.png)
+![image](README_files/images/butflip2.png)
+![image](README_files/images/butflip3.png)
 
 
 **As a User, I would like this close button to play a sound upon closing the Welcome Modal.**
