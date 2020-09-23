@@ -204,7 +204,7 @@ Steps taken -
 
 >Repeat for level 2 - https://liamoconnor87.github.io/bobsburgersgame/level_two.html.
 
-![image](README_files/images/nextlevel.png)
+![image](README_files/images/nextlvl.png)
 
 
 **As a User, when I have completed all the levels I would like an option to go back to the beginning to play again.**
@@ -388,8 +388,8 @@ I used JShint to validate my Javascript code. Here are the steps I took.
 >9. Repeat process for **sounds.js** file.
 ![image](README_files/images/sndjs-input.png)
 >10. Repeat process for **timer_reset.js** file.
-![image](README_files/images/timsetjs-input.png)
+![image](README_files/images/timesetjs-input.png)
 >11. Repeat process for **timer_reset_ltwo.js** file.
-![image](README_files/images/timsetjs2-input.png)
+![image](README_files/images/timesetjs2-input.png)
 >12. Repeat process for **timer_reset_lthree.js** file.
-![image](README_files/images/timsetjs3-input.png)
+![image](README_files/images/timesetjs3-input.png)
