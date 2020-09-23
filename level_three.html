@@ -14,11 +14,11 @@
 
     <!-- Mute Button -->
     <div onclick="enableMute()" class="mute-button mute click">
-        <h1><i class="fas fa-volume-up"></i></h1>
+        <p><i class="fas fa-volume-up"></i></p>
     </div>
 
     <div onclick="disableMute()" class="mute-button unmute click">
-        <h1><i class="fas fa-volume-mute"></i></h1>
+        <p><i class="fas fa-volume-mute"></i></p>
     </div>
 
     <!-- Load animation -->
@@ -90,7 +90,7 @@
     </div>
 
     <!-- Title and Counter -->
-    <section class="title large">
+    <div class="title large">
 
         <img src="assets/img/bobs_logo.jpg"  alt="Bob's Burgers Memory Game" class="logo">
 
@@ -106,10 +106,10 @@
 
         </div>
 
-    </section>
+    </div>
 
     <!-- Memory Game -->
-    <section class="game-container large">
+    <div class="game-container large">
 
         <div class="memory-card large" onclick="playBruce(); playTheme();" data-name="courtney">
             <div class="front-face courtney"></div>
@@ -231,7 +231,7 @@
             <div class="back-face"></div>
         </div>
 
-    </section>
+    </div>
 
     <!-- Theme Song -->
     <audio id="theme" src="https://www.dropbox.com/s/rx2ywjriem2vej8/bob_theme.mp3?raw=1"></audio>
