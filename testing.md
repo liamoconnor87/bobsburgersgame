@@ -41,7 +41,9 @@ This testing applies to these User Stories -
 Steps taken  -
 
 >Move mouse over the 'FLIP' button and observe it changes colour.
+
 >Click on the 'FLIP' button to observe it changes size.
+
 >Observe that the Modal closes.  
 
 ![image](README_files/images/butflip1.png)
