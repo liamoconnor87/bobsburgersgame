@@ -7,7 +7,9 @@ Testing
 - Once this has ended the animation should fade out of view and the game board as well as the Welcome Modal should appear. This Modal has a welcome message as well as the rules on how to play the game. 
 
 This testing applies to these User Stories -
+
 **As a User, I would like a Modal to appear to signify its level two.**
+
 **As a User, I would like a Modal to appear to signify its level three.**
 
 Steps taken - 
@@ -35,7 +37,9 @@ Steps taken -
 - Clicking the button also animates the button to change in size. 
 
 This testing applies to these User Stories -
+
 **As a User, I would like a button to close the Level Two Modal so I can play the game.**
+
 **As a User, I would like a button to close the Level Three Modal so I can play the game.**
 
 Steps taken  -
@@ -56,7 +60,9 @@ Steps taken  -
 - Clicking on the 'FLIP' button should trigger the Bob's Burgers Theme song.
 
 This testing also applies to these User Stories - 
+
 **As a User, I would like this close button to play a sound upon closing the Level Two Modal.**
+
 **As a User, I would like this close button to play a sound upon closing the Level Three Modal.**
 
 Steps taken - 
@@ -290,6 +296,7 @@ Steps taken -
 - When the User clicks on the Reset Button it should animate the button to change size. 
 
 This test will also include User Story - 
+
 **As a User, I would like the Reset Button to ask if im sure I want to reset the game before resetting.**
 
 - When the user clicks on the Reset Button, it asks if they are sure with the option of "YES" or 'NO'
