@@ -5,20 +5,17 @@ Bob's Burgers Memory Game Project
 
 ![image](README_files/images/homepage.png)
 
-The Bob's Burgers Memory Game is at its core a simple memory card game, designed in the style of the popular Animated TV Show - Bob's Burgers.
+The Bob's Burgers Memory Game is at it's core a simple memory card game, designed in the style of a popular Animated TV Show, Bob's Burgers.
 
-Although this would specifaclly be aimed at fans of the show, the style of animation as well as the colour scheme is easy on the eyes. As well as as comical sounds captured from the show create an amusing experience for Fans and Non Fans. Its fun for all!
+Although the game would appeal more to fan of the tv show, the style, animation and colour scheme are easy on the eyes and will appeal to a larger audience. Added comical sounds captured directly from the show create an amusing experience for both fans and non-fans of the show - it's fun for all!
 
-There are three levels.
-
-List of characters featured.   
 
 UX
 ==
 
-Each level has a loading screen that is an animation of a Burger fading in and out of visibilty. Not only does it give abit more time for the game to properly load in the background, but also a typical experience for a seasoned gamer and will only reaffirm that experience when this plays. 
+Each level has an animated loading screen of a pulsating buger fading in and out of visability, giving the game adequate time to load in the background but also giving a typical experience for a seasoned gamer.
 
-The game consists of three levels and increasing with difficulty as the User progresses.
+The game consists of three levels, increasing in difficulty as the User progresses.
 
 >Level One - Game board consists of a 4x4 card set.
 
@@ -26,21 +23,19 @@ The game consists of three levels and increasing with difficulty as the User pro
 
 >Level Three - Game board consists of a 6x6 card set. 
 
-The User, will be able to play the game to the backdrop of the Bob's Burgers sound track as well as delightful short sounds to indicate when a card is flipped, matched or game completed. Each levels card flip sound is different, to keep it fresh and the User engaged.
+The User, will be able to play the game to the backdrop of the Bob's Burgers sound track as well as delightful short sounds that indicate when a card is flipped, matched or the game has completed. Each level's card flip sound is different, to keep it fresh and the User engaged.
 
-All the cards front face are characters from the show providing a pleasant visual experience when the card is flipped. 
+All the cards are characters from the show providing a pleasant visual experience. 
 
-As the User, plays the scoreboard will update in real time. A timer to show how long it takes the User to complete the game as well as a counter that counts the number of combinations it took to do so. 
+As the User plays the scoreboard keeps track of the time and number of combinations the user takes to complete the game in real time. 
 
-Once the User has completed the game the Game Complete Modal pops up with a celebatory sound to reaffirm you have completed the level. Along with your score and options to either play the current level again or progress to the next level. 
+All the sounds on this game are playful and will appeal to a wide range of Users. Users that are a fan of the TV Show will be familiar with the sounds and characters, adding to the expeirence. 
 
-All the sounds on this game are playful and will appeal to a wide range of Users. Users that are a fan of the TV Show will be familiar with the sounds and characters. Only adding to the expeirence. This also includes the loading screen in which holds some familiarity with the intro used on the TV Show. 
+Also, for the User but particularly for fans of the show when they select 'NO' on the reset option a sound is played from one of the characters. This sound is different on each level.
 
-Also, for the User, but particularly for fans of the show. When they select 'NO' on the reset option. A sound is played of certain characters. This sound is different on each level. Again adding to the fun expereince of discovery, and adds alittle more dimension when playing the game. 
+Level three difficulty is particularly high due to the pairing of Identical Twins Andy and Ollie from the TV Show. As a hint, these characters have a seperate sound unique to them. The user is also given a tip in the welcome modal.
 
-Level Three difficulty is particularly high due to the pairing of Identical Twins Andy and Ollie from the TV Show. A user whos fan of the show will work this puzzle out quickly. However not all Users are fans and because of this replaced the sound for these two cards with there own sound as an indication and also the User is given a tip in the Welcome Modal. 
-
-In its entirity its visually pleasant with amusing sound affects as well as homage to a TV Show a Fan would enjoy. 
+The game is designed to be visually pleasant with amusing sound affects, as well as playing homage to a TV Show fans would enjoy. 
 
 User Stories
 ----------------
