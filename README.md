@@ -252,6 +252,7 @@ Media
 - The "fart" sound affect was from [Diecast Movies on youtube](https://www.youtube.com/watch?v=azvLpmHj_5I)
 - The "Alright... alright" sound affect when the user completes the game was from [lum on youtube](https://www.youtube.com/watch?v=og8-kam-N2s&t=61s)
 - The Bob's Burgers Theme song was from [Bob's Burgers- Topic on youtube](https://www.youtube.com/watch?v=nbwTBunV1aY)
+- The Bobs' Burgers font for Modals and Banners [Bob's Burgers by Jayde Garrow](https://www.dafont.com/bobs-burgers.font)
 
 Acknowledgements
 --------------------------
