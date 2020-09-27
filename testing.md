@@ -1,16 +1,19 @@
 Testing
-======	
+======
 
-**As a User, I would like a Welcome Modal to appear to explain how to play the game.**
---------------------------------------------------------------------------------------------------------------------
+**User Story Testing**
+-------
+
+*As a User, I would like a Welcome Modal to appear to explain how to play the game.*
+------------------------------
 - Initially when visiting the website they will observe a loading screen animation. 
 - Once this has ended the animation should fade out of view and the game board as well as the Welcome Modal should appear. This Modal has a welcome message as well as the rules on how to play the game. 
 
 This testing applies to these User Stories -
 
-**As a User, I would like a Modal to appear to signify its level two.**
+***As a User, I would like a Modal to appear to signify its level two.***
 
-**As a User, I would like a Modal to appear to signify its level three.**
+***As a User, I would like a Modal to appear to signify its level three.***
 
 Steps taken - 
 
@@ -30,7 +33,7 @@ Steps taken -
 ![image](README_files/images/welmodlvl3.png)
 
 
-**As a User, I would like a button to close the Welcome and Rules Modal so I can play the game.**
+*As a User, I would like a button to close the Welcome and Rules Modal so I can play the game.*
 -----------------------------------------------------------------------------------------------------------------------------------
 - Upon the Welcome Modal appearing and the User has read the rules, they will be able to close the Modal by clicking the 'FLIP' button. 
 - Hovering the mouse over hte button changes the appearance from Red and Black to Yellow and Black. 
@@ -38,9 +41,9 @@ Steps taken -
 
 This testing applies to these User Stories -
 
-**As a User, I would like a button to close the Level Two Modal so I can play the game.**
+***As a User, I would like a button to close the Level Two Modal so I can play the game.***
 
-**As a User, I would like a button to close the Level Three Modal so I can play the game.**
+***As a User, I would like a button to close the Level Three Modal so I can play the game.***
 
 Steps taken  -
 
@@ -55,15 +58,15 @@ Steps taken  -
 ![image](README_files/images/butflip3.png)
 
 
-**As a User, I would like this close button to play a sound upon closing the Welcome Modal.**
+*As a User, I would like this close button to play a sound upon closing the Welcome Modal.*
 ---------------------------------------------------------------------------------------------------------------------------
 - Clicking on the 'FLIP' button should trigger the Bob's Burgers Theme song.
 
 This testing also applies to these User Stories - 
 
-**As a User, I would like this close button to play a sound upon closing the Level Two Modal.**
+***As a User, I would like this close button to play a sound upon closing the Level Two Modal.***
 
-**As a User, I would like this close button to play a sound upon closing the Level Three Modal.**
+***As a User, I would like this close button to play a sound upon closing the Level Three Modal.***
 
 Steps taken - 
 
@@ -72,7 +75,7 @@ Steps taken -
 >Listen for music to start. 
 
 
-**As a User, when I click on a card to flip it over, I would like it to animate as it flips.**
+*As a User, when I click on a card to flip it over, I would like it to animate as it flips.*
 -------------------------------------------------------------------------------------------------------------------
 - Clicking on a card should animate the card to flip over. 
 
@@ -87,7 +90,7 @@ Steps taken -
 >Repeat for level 3 - https://liamoconnor87.github.io/bobsburgersgame/level_three.html.
 
 
-**As a User, when I play the game I would like a timer displayed so I know how long its taking me to complete the game.**
+*As a User, when I play the game I would like a timer displayed so I know how long its taking me to complete the game.*
 ---------------------------------------------------------------------------------------------------------------------------------------------
 - Timer is clearly displayed between the header of the page and the card set for the User to view.
 - Upon first click / card flip the timer should start and display in real time.  
@@ -105,7 +108,7 @@ Steps taken -
 ![image](README_files/images/timerstarts.png)
 
 
-**As a User, when I play the game I would like a counter displayed so I know how many attempts it takes me to complete the game.**
+*As a User, when I play the game I would like a counter displayed so I know how many attempts it takes me to complete the game.*
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 - Counter is clearly displayed between the header of the page and the card set. Mirrored to the Timer display. 
 - Upon two cards being flipped the counter will count that as one combination and display it in real time as the User tries to complete the game. 
@@ -114,7 +117,7 @@ Steps taken -
 
 >Click on two cards to create a combination. 
 
->Observer that the counter increases by one. 
+>Observe that the counter increases by one. 
 
 >Repreat process to observe it increase by one again.
 
@@ -126,7 +129,7 @@ Steps taken -
 ![image](README_files/images/counter.png)
 
 
-**As a User, when I click on a card to flip, I would like a sound to play to signify I have flipped the card.**
+*As a User, when I click on a card to flip, I would like a sound to play to signify I have flipped the card.*
 -------------------------------------------------------------------------------------------------------------------------------------------
 - Clicking on a card will trigger a sound to be played. 
 
@@ -155,7 +158,7 @@ Level Three - https://liamoconnor87.github.io/bobsburgersgame/level_three.html.
 >Listen for Tina sound to be played. 
 
 
-**As a User, when I get two cards that match, I would like a sound to play to signify that I have got a match.**
+*As a User, when I get two cards that match, I would like a sound to play to signify that I have got a match.*
 --------------------------------------------------------------------------------------------------------------------------------------------------
 - When two cards matched a sound is played.
 
@@ -170,7 +173,7 @@ Steps taken -
 >Repeat for level 3 - https://liamoconnor87.github.io/bobsburgersgame/level_three.html.
 
 
-**As a User, when I match all the cards and completed the game, I would like a sound to play to signify that.**
+*As a User, when I match all the cards and completed the game, I would like a sound to play to signify that.*
 --------------------------------------------------------------------------------------------------------------------------------------------------
 - When the game is completed a sound will play to signify the game is complete.
 - All other sounds playing have the volume turned down. 
@@ -187,7 +190,7 @@ Steps taken -
 >Repeat for level 3 - https://liamoconnor87.github.io/bobsburgersgame/level_three.html.
 
 
-**As a User, when I complete the game, I would like a Modal to appear displaying my Time and Counter score.**
+*As a User, when I complete the game, I would like a Modal to appear displaying my Time and Counter score.*
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 - When the game is complete a Game Complete Modal appears.
 - Modal displays Time and Counter score.
@@ -204,7 +207,7 @@ Steps taken -
 ![image](README_files/images/completemod.png)
 
 
-**As a User, when I complete the game, I would like the option to play the same level again.**
+*As a User, when I complete the game, I would like the option to play the same level again.*
 -----------------------------------------------------------------------------------------------------------------------------
 - When the User has completed the game the Game Complete Modal appears.
 - User will be able to choose to play again. 
@@ -226,7 +229,7 @@ Steps taken -
 ![image](README_files/images/playagain.png)
 
 
-**As a User, when I complete the game, I would like the option to play the next level.**
+*As a User, when I complete the game, I would like the option to play the next level.*
 --------------------------------------------------------------------------------------------------------------------
 - When the User has completed the game the Game Complete Modal appears.
 - User will be able to choose to play the next level. 
@@ -246,7 +249,7 @@ Steps taken -
 ![image](README_files/images/nextlvl.png)
 
 
-**As a User, when I have completed all the levels I would like an option to go back to the beginning to play again.**
+*As a User, when I have completed all the levels I would like an option to go back to the beginning to play again.*
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 - When the User has completed level three the Game Complete Modal appears.
 - User will be able to choose to return to the beginning. 
@@ -266,7 +269,7 @@ Steps taken -
 ![image](README_files/images/homebuthl.png)
 
 
-**As a User, I would like a Mute Button so I can mute all the sound in the game.**
+*As a User, I would like a Mute Button so I can mute all the sound in the game.*
 -----------------------------------------------------------------------------------------------------------
 - The Mute button is displayed in the top left of the screen. 
 - User will be able to mute all sounds. 
@@ -289,7 +292,7 @@ Steps taken -
 ![image](README_files/images/unmuted.png)
 ![image](README_files/images/muted.png)
 
-**As a User, I would like a Reset Button should I want to reset the game Im playing.**
+*As a User, I would like a Reset Button should I want to reset the game Im playing.*
 -----------------------------------------------------------------------------------------------------------------
 - The Reset Button is displayed in the top right of the screen, mirrored with the mute button.
 - The User will be able to reset the current level they are on. 
@@ -297,7 +300,7 @@ Steps taken -
 
 This test will also include User Story - 
 
-**As a User, I would like the Reset Button to ask if im sure I want to reset the game before resetting.**
+*As a User, I would like the Reset Button to ask if im sure I want to reset the game before resetting.*
 
 - When the user clicks on the Reset Button, it asks if they are sure with the option of "YES" or 'NO'
 - 'YES' and 'NO' are highlighted in Yellow and Black.
@@ -329,11 +332,26 @@ Steps taken -
 ![image](README_files/images/resetno.png)
 
 
+**Websites Compatibility**
+---------------------------------------
+
+The game is compatible on the following browsers - 
+
+- Chrome
+- Opera
+- Vivaldi
+- Safari
+- Firefox
+- Microsoft Edge
+
+However on ***Internet Explorer*** the height of the Welcome Modal on each level is the full length of the screen.
+
+
 **Websites responsiveness**
 ---------------------------------------
 
-Website responsive layout was primarily tested on Google Chrome, Opera and Vivaldi using the Developer Tools. 
-The website also worked well with Internet Explorer, Safari and Firefox.
+Website responsive layout was primarily tested on Chrome, Opera and Vivaldi using the Developer Tools. 
+The website also worked well with Microsoft Edge, Internet Explorer, Safari and Firefox.
 The website also works well with smart devices.
 
 ## Desktop View's ##

@@ -229,7 +229,7 @@ Running Code Locally
 >2. Click on the **Clone or Download** button in **green** and copy the URL link to the repository in the address box - https://github.com/liamoconnor87/bobsburgersgame.git
 >![image](README_files/images/dwnld-repo.png)
 >3. Head into your terminal and **cd** to the path where you would like to clone the repository.
->4. Type into terminal - **git clone https://github.com/liamoconnor87/bobsburhersgame.git**. This should download your repository to your designated folder.
+>4. Type into terminal - **git clone https://github.com/liamoconnor87/bobsburgersgame.git**. This should download your repository to your designated folder.
 >5. Once this is downloaded, you can run the files through your browser to check it works.
 
 
