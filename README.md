@@ -19,9 +19,9 @@ The game consists of three levels, increasing in difficulty as the User progress
 
 >Level One - Game board consists of a 4x4 card set.
 
->Level Two - Game board consists of 5x5 card set.
+>Level Two - Game board consists of 4x5 card set.
 
->Level Three - Game board consists of a 6x6 card set. 
+>Level Three - Game board consists of a 4x6 card set. 
 
 The User, will be able to play the game to the backdrop of the Bob's Burgers sound track as well as delightful short sounds that indicate when a card is flipped, matched or the game has completed. Each level's card flip sound is different, to keep it fresh and the User engaged.
 
