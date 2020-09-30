@@ -163,7 +163,7 @@ Sounds are played within the game when the following actons are taken by the Use
 Features To Be Implmented
 ---------------------------------------
 - Different sounds to play on certain card combinations. For example when a User matches two cards of Bob Belcher it would play a sound bite specific to that character, like a catch phrase.
-- In hindisight, I think having the game on one html file would have been better, time constraints after reaslising this were the factor in not doing this. 
+- In hindsight, I think having the game on one html file would have been better, time constraints after reaslising this were the factor in not doing this.
 
 
 Technologies Used

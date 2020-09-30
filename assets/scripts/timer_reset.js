@@ -152,7 +152,7 @@ function gameComplete() {
 // Function to reset timer. 
 function timerReset() {
 
-    window.clearInterval(interval)
+    window.clearInterval(interval);
 
     status = "stopped";
 
