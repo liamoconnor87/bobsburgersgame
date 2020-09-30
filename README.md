@@ -57,7 +57,7 @@ User Stories
 - As a User, when I complete the game, I would like a Modal to appear displaying my Time and Counter score.
 - As a User, when I complete the game, I would like the option to play the same level again.
 - As a User, when I complete the game, I would like the option to play the next level.
-- As a User, when I complete the game, I would like an option to go back to the beginning to play again.
+- As a User, when I complete the game, I would like an option to go back to the beginning.
 - As a User, I would like a Mute Button so I can mute all the sound in the game.
 - As a User, I would like a Reset Button should I want to reset the game Im playing.
 - As a User, I would like the Reset Button to ask if im sure I want to reset the game before resetting.

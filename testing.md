@@ -249,11 +249,12 @@ Steps taken -
 ![image](README_files/images/nextlvl.png)
 
 
-*As a User, when I complete the game, I would like an option to go back to the beginning to play again.*
+*As a User, when I complete the game, I would like an option to go back to the beginning.*
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
-- When the User has completed level three the Game Complete Modal appears.
-- User will be able to choose to return to the beginning. 
-- This option replaced the 'Next Level' option with 'Home' on the Game Complete Modal. 
+- When a User completes the level the Game COmplete Modal appears.
+- User will be able to choose to return to the beginning by clicking on the Home Icon in the center.
+- On level three, the 'Next Level' option is replaced wiht a 'Home' button and the Home icon is removed.
+- Hoverinh over the Home icon changes the appearance from White to Yellow.  
 - Hovering the mouse over changes the appearance of the button from Yellow and Black to Blue and White. 
 - Clicking the button also animates the button to change in size. 
 
