@@ -63,6 +63,17 @@ function disableMute() {
 
 }
 
+// Function to reset Volume.
+function resetVolume() {
+
+    theme.volume = 1;
+    linda.volume = 1;
+    gene.volume = 0.3;
+    tina.volume = 1;
+    bruce.volume = 1;
+
+}
+
 // Plays when two cards match.
 function playLinda() {
 

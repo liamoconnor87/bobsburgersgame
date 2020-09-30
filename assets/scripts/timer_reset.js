@@ -88,14 +88,45 @@ function startTimer() {
 }
 
 // Stops timer value defined.
-let matchedCard = document.getElementsByClassName("memory-card flip");
+let matchedCardLevelOne = document.getElementsByClassName("memory-card small flip");
+let matchedCardLevelTwo = document.getElementsByClassName("memory-card medium flip");
+let matchedCardLevelThree = document.getElementsByClassName("memory-card large flip");
 
 // Function to stop timer when game is compete. 
 function stopTimer() {
 
-    if (matchedCard.length == 16) {
+    // Checks if Level One is complete.
+    if (matchedCardLevelOne.length == 16) {
 
         window.clearInterval(interval);
+
+        status = "stopped";
+
+        // Triggers game complete function.
+        gameComplete();
+
+        // Triggers function to play sound. 
+        playComplete();
+
+    // Checks if Level Two is complete.
+    } else if (matchedCardLevelTwo.length == 20) {
+
+        window.clearInterval(interval);
+
+        status = "stopped";
+
+        // Triggers game complete function.
+        gameComplete();
+
+        // Triggers function to play sound. 
+        playComplete();
+
+    // Checks if Level Two is complete.
+    } else if (matchedCardLevelThree.length == 24) {
+
+        window.clearInterval(interval);
+
+        status = "stopped";
 
         // Triggers game complete function.
         gameComplete();
@@ -107,17 +138,6 @@ function stopTimer() {
 
 }
 
-// Timer starts on first card click.
-$(".memory-card").click(function(){
-
-    // Triggers function to start timer. 
-    startTimer();
-
-    // Triggers function to stop timer. 
-    stopTimer();
-
-});
-
 // Triggers function for Modal Game Complete.
 function gameComplete() {
 
@@ -126,6 +146,23 @@ function gameComplete() {
     $(".complete-box").delay(1200).animate({
         opacity: '1',
     }, 1000);
+
+}
+
+// Function to reset timer. 
+function timerReset() {
+
+    window.clearInterval(interval)
+
+    status = "stopped";
+
+    // Resets time displayed.
+    document.getElementById("display").innerHTML = "00:00:00";
+    document.getElementById("final-time").innerHTML = "00:00:00";
+
+    seconds = 0;
+    minutes = 0;
+    hours = 0;
 
 }
 

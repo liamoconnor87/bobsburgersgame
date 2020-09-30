@@ -44,6 +44,9 @@ $(document).ready(function(){
         // Triggers function to play sound. 
         playTheme();
 
+        // Shuffles cards.
+        shuffle();
+
         $(".start-container").fadeOut(500);
 
     });
@@ -52,17 +55,10 @@ $(document).ready(function(){
     // Play again animation.
     $(".reload").click(function(){
 
-        $(".loadout").fadeIn(1000);
+        // Reloads game.
+        gameReload();
 
-        setTimeout(reload, 2000);
-
-
-        // Triggers function when user clicks 'Play again?' - Reloads screen/game. 
-        function reload(){
-
-            window.location.reload(false);
-
-        }
+        $(".board-container").fadeOut(500);
 
     });
     

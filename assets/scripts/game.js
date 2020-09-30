@@ -25,8 +25,17 @@ function count() {
 
 }
 
+// Resets Counter.
+function counterReset() {
+
+    combos = 0;
+
+    $(".count").text("0");
+    
+}
+
 // Card shuffle function - Triggers on screen/game load. 
-(function shuffle() {
+function shuffle() {
 
     cards.forEach(card => {
         
@@ -35,7 +44,7 @@ function count() {
 
     });
 
-})();
+}
 
 // Flip card function. 
 function flipCard() {
@@ -49,6 +58,9 @@ function flipCard() {
     this.classList.add('flip');
 
     if (!hasFlippedCard) {
+
+        // Function starts timer on first click. 
+        startTimer();
 
         // First click
         hasFlippedCard = true;
@@ -74,6 +86,9 @@ function flipCard() {
 
             // Triggers function to play sound. 
             playLinda();
+
+            // Triggers function to check if game is complete.
+            stopTimer();
             
         } else {
 
@@ -97,3 +112,25 @@ function flipCard() {
 }
 
 cards.forEach(card => card.addEventListener('click', flipCard));
+
+// Function for play same level again. 
+function gameReload() {
+
+    // All cards flip back.
+    $(".memory-card").removeClass("flip");
+
+    // Event listeners are re added to cards.
+    cards.forEach(card => card.addEventListener('click', flipCard));
+
+    shuffle();
+
+    // Function reset volume.
+    resetVolume();
+
+    // Function resets timer.
+    timerReset();
+
+    // Resets counter.
+    counterReset();
+
+}
