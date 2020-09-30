@@ -507,11 +507,3 @@ I used JShint to validate my Javascript code. Here are the steps I took.
 >10. Repeat process for **timer_reset.js** file.
 
 ![image](README_files/images/timesetjs-input.png)
-
->11. Repeat process for **timer_reset_ltwo.js** file.
-
-![image](README_files/images/timesetjs2-input.png)
-
->12. Repeat process for **timer_reset_lthree.js** file.
-
-![image](README_files/images/timesetjs3-input.png)
