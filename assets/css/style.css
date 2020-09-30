@@ -328,11 +328,24 @@ body {
     transform: scale(1);
 }
 
+.home {
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    transform: scale(1);
+}
+
 .next-option {
     margin: auto;
     width: 90%;
     display: flex;
     flex-direction: row;
+}
+
+.home:hover {
+    color: rgb(255, 240, 0);
 }
 
 .again:active{
@@ -388,6 +401,10 @@ body {
 
     .again {
         margin-top: 7px;
+    }
+
+    .home {
+        font-size: 25px;
     }
 
 }
