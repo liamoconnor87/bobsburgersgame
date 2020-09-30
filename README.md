@@ -57,7 +57,7 @@ User Stories
 - As a User, when I complete the game, I would like a Modal to appear displaying my Time and Counter score.
 - As a User, when I complete the game, I would like the option to play the same level again.
 - As a User, when I complete the game, I would like the option to play the next level.
-- As a User, when I have completed all the levels I would like an option to go back to the beginning to play again.
+- As a User, when I complete the game, I would like an option to go back to the beginning to play again.
 - As a User, I would like a Mute Button so I can mute all the sound in the game.
 - As a User, I would like a Reset Button should I want to reset the game Im playing.
 - As a User, I would like the Reset Button to ask if im sure I want to reset the game before resetting.
@@ -163,7 +163,7 @@ Sounds are played within the game when the following actons are taken by the Use
 Features To Be Implmented
 ---------------------------------------
 - Different sounds to play on certain card combinations. For example when a User matches two cards of Bob Belcher it would play a sound bite specific to that character, like a catch phrase.
-- I would have also liked to have implemented the use of a cache storage for the Users previous scores and display them at the end of each level. 
+- In hindisight, I think having the game on one html file would have been better, time constraints after reaslising this were the factor in not doing this. 
 
 
 Technologies Used

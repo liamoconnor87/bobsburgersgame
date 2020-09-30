@@ -249,7 +249,7 @@ Steps taken -
 ![image](README_files/images/nextlvl.png)
 
 
-*As a User, when I have completed all the levels I would like an option to go back to the beginning to play again.*
+*As a User, when I complete the game, I would like an option to go back to the beginning to play again.*
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 - When the User has completed level three the Game Complete Modal appears.
 - User will be able to choose to return to the beginning. 
