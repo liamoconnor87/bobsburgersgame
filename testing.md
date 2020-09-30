@@ -218,9 +218,9 @@ Steps taken -
 
 >Move mouse over the 'Play Agian' button and observe it changes colour.
 
->Click on the 'FLIP' button to observe it changes size.
+>Click on the 'Play Again' button to observe it changes size.
 
->Observe that the Modal closes.  
+>Observe that the Modal closes and can play again. 
 
 >Repeat for level 2 - https://liamoconnor87.github.io/bobsburgersgame/level_two.html.
 
@@ -265,6 +265,7 @@ Steps taken -
 
 >Observe that the game takes you to the beginning. - https://liamoconnor87.github.io/bobsburgersgame/
 
+![image](README_files/images/homebuthl2.png)
 ![image](README_files/images/homebut.png)
 ![image](README_files/images/homebuthl.png)
 

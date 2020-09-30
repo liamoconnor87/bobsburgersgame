@@ -145,10 +145,11 @@ Game Complete Modal
 The 'Game Complete' Modal appears once the user has completed the level and consists of; 
 - A congratulations message.
 - The User's score, consisting of the time it took and the number of combinations to complete the game. 
-- 'Play Again?' button to play the same level again. This works the same way as the reset button. 
+- 'Play Again?' button to play the same level again.
+- A Home icon button to take the User back to the beginning. 
 - 'Next Level' button, so the User can progress to the next level.  
 
-On Level Three, the 'Next Level' button is replaced with a 'Home' button that takes you back to the beginning, Level One. 
+On Level Three, the 'Next Level' button is replaced with a 'Home' and carries out the same action as the Home icon.
 
 Sounds
 ----------------
