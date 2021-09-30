@@ -359,6 +359,27 @@ body {
     border: solid white 3px;
 }
 
+/* CREATED BY WEBDEVLIAM */
+.created-by{
+    display: flex;
+    color: inherit;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.created-by p{
+    margin: 0 auto;
+    font-size: 10px;
+}
+.created-by a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.liam-link:hover{
+    text-decoration: underline;
+}
+
 /* Smart device layouts */
 @media screen and (min-width: 360px) {
 
